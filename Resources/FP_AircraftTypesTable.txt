@@ -1,0 +1,1526 @@
+AIRCRAFT TYPES	Description	Wake	Body	Number of seats	ULD / Loose
+A500	Adam: A-500	L		0	
+A700	Adam: A-700 AdamJet 	L		0	
+G222	Aeritalia: C-27A Spartan 	M		0	
+C27J	Aeritalia: C-27J Spartan 	M		0	
+LA60	Aermacchi / Macchi: AL-60 	L		0	
+AM3	Aermacchi / Macchi: AM-3 	L		0	
+L90	Aermacchi / Macchi: M-290TP Redigo 	L		0	
+Y130	Aermacchi / Macchi: M-346 	M		0	
+M308	Aermacchi / Macchi: MB-308 	L		0	
+M326	Aermacchi / Macchi: MB-326 	L		0	
+M339	Aermacchi / Macchi: MB-339 	L		0	
+F260	Aermacchi / Macchi: SF-260	L		0	
+AB11	Aero Boero: AB-115 	L		0	
+AB15	Aero Boero: AB-150	L		0	
+AB18	Aero Boero: AB-180 	L		0	
+AB95	Aero Boero: AB-95	L		0	
+JCOM	Aero Commander: 1121 Jet Commander	M		0	
+AC50	Aero Commander: 500 Commander 500 	L		0	
+AC56	Aero Commander: 560 Commander 560 	L		0	
+AC68	Aero Commander: 680F Commander	L		0	
+AC6L	Aero Commander: 680FL Grand Commander 	L		0	
+AC80	Aero Commander: 680T / 680V Turbo Commander 	L		0	
+AC72	Aero Commander: 720 Alti Cruiser	L		0	
+A9	Aero Commander: A-9 Ag Commander 	L		0	
+CLB1	Aero Commander: Ag Commander (B-1) 	L		0	
+VO10	Aero Commander: Commander 100 	L		0	
+M200	Aero Commander: Commander 200	L		0	
+SS2P	Aero Commander: S-2 Ag Commander 	L		0	
+A270	AERO: Ae-270 Ibis 	L		0	
+AE45	AERO: Ae-45 / Ae-145	L		0	
+L159	AERO: L-159 Albatros 2 	M		0	
+L29	AERO: L-29 Delfin 	L		0	
+L39	AERO: L-39 Albatros 	L		0	
+L59	AERO: L-59	L		0	
+L60	AERO: L-60 Brigadyr 	L		0	
+MG15	AERO: S-102 	L		0	
+AR11	Aeronca: 11 Chief 	L		0	
+AR15	Aeronca: 15 Sedan 	L		0	
+CH7A	Aeronca: 7 Champion	L		0	
+AS32	Aerospatiale / SNIAS: AS-332 Mk1 Super Puma	M		0	
+AS3B	Aerospatiale / SNIAS: AS-332 Mk2 Super Puma	M		0	
+AS50	Aerospatiale / SNIAS: AS-350 AStar 	L		0	
+AS55	Aerospatiale / SNIAS: AS-355 Ecureuil 2 	L		0	
+AS65	Aerospatiale / SNIAS: AS-365 Dauphin 2 / AS-366 Dolphin 	L		0	
+FOUG	Aerospatiale / SNIAS: CM-170R Magister 	L		0	
+N262	Aerospatiale / SNIAS: Fr	M		0	
+LAMA	Aerospatiale / SNIAS: SA-315 Lama 	L		0	
+ALO3	Aerospatiale / SNIAS: SA-316 / SA-319 Alouette 3 	L		0	
+ALO2	Aerospatiale / SNIAS: SA-318 Alouette 2 	L		0	
+FREL	Aerospatiale / SNIAS: SA-321 Super Frelon 	M		0	
+PUMA	Aerospatiale / SNIAS: SA-330 Puma 	L		0	
+GAZL	Aerospatiale / SNIAS: SA-341 / SA-342 Gazelle 	L		0	
+S360	Aerospatiale / SNIAS: SA-360 Dauphin 	L		0	
+S65C	Aerospatiale / SNIAS: SA-365C Dauphin 2 	L		0	
+S210	Aerospatiale / SNIAS: SE-210 Caravelle 	M		0	
+S601	Aerospatiale / SNIAS: SN-601 Corvette 	L		0	
+TB30	Aerospatiale / SNIAS: TB-30 Epsilon 	L		0	
+YK52	Aerostar: Yak-52 	L		0	
+PTS1	Aerotek: Pitts S-1 Special 	L		0	
+PTS2	Aerotek: Pitts S-2 Special 	L		0	
+TOUR	AESL: Airtourer 	L		0	
+CT4	AESL: CT-4 Airtrainer 	L		0	
+AA5	AGAC: AG-5 Tiger 	L		0	
+G64T	Ag-Cat: G-164 Super Turbine 	L		0	
+A109	Agusta / AgustaWestland: A-109 	L		0	
+A119	Agusta / AgustaWestland: A-119 Koala 	L		0	
+A129	Agusta / AgustaWestland: A-129 Mangusta 	L		0	
+A139	Agusta / AgustaWestland: AB139 / AW139	L		0	
+B06	Agusta / AgustaWestland: AB-206 JetRanger / LongRanger	L		0	
+B212	Agusta / AgustaWestland: AB-212 	L		0	
+B412	Agusta / AgustaWestland: AB-412 Griffon 	L		0	
+B47G	Agusta / AgustaWestland: AB-47G 	L		0	
+B47J	Agusta / AgustaWestland: AB-47J 	L		0	
+EH10	Agusta / AgustaWestland: EH-101 	M		0	
+S61R	Agusta / AgustaWestland: HH-3 	M		0	
+S61	Agusta / AgustaWestland: SH-3 	M		0	
+CH1	AIDC: A-CH-1 Chung-Tsing	L		0	
+AT3	AIDC: AT-3 Tzu-Chung 	M		0	
+F5	AIDC: F-5 Chung-Cheng	M		0	
+CKUO	AIDC: F-CK-1 Ching-Kuo 	M		0	
+ERCO	Air Products: Aircoupe 	L		0	
+AT3P	Air Tractor: AT-300 / AT-301 / AT-401	L		0	
+AT3T	Air Tractor: AT-302 / AT-400 / AT-402	L		0	
+AT5P	Air Tractor: AT-501 	L		0	
+AT5T	Air Tractor: AT-502 / AT-503	L		0	
+AT6T	Air Tractor: AT-602 	L		0	
+AT8T	Air Tractor: AT-802 	L		0	
+EC20	Airbus (Helicopters): H120			0	
+EC30	Airbus (Helicopters): H130	L		0	
+EC35	Airbus (Helicopters): H135	L		0	
+EC45	Airbus (Helicopters): H145	L		0	
+EC55	Airbus (Helicopters): H155	L		0	
+A3ST	Airbus: A300-600ST Beluga 	H		0	
+A30B	Airbus: A300B2 / B4 / C4 / F4	H		0	
+A306	Airbus: A300B4-600 /C4-600 / F4-600	H	D	0	
+A310	Airbus: A310 / CC-150 Polaris 	H	D	0	
+A318	Airbus: A318	M		0	
+A319	Airbus: A319	M	C	135	Loose
+A320	Airbus: A320	M	C	180	Loose
+A321	Airbus: A321	M	C	182	Loose
+A332	Airbus: A330-200	H	E	371	ULD
+A333	Airbus: A330-300	H	E	362	ULD
+A342	Airbus: A340-200	H	E	295	ULD
+A343	Airbus: A340-300	H	E	265	ULD
+A345	Airbus: A340-500	H	E	0	
+A346	Airbus: A340-600	H	E	0	
+A358	Airbus: A350-800	H		0	
+A359	Airbus: A350-900	H		0	
+A388	Airbus: A380-800	H		0	
+CN35	Airtech: CN-235	M		0	
+R200	Alpha: R-2160 Alpha 160 	L		0	
+ROND	Ambrosini: F-4 Rondone	L		0	
+BL8	American Champion: 8 Scout 	L		0	
+CH7B	American Champion: Citabria Adventure 	L		0	
+AC90	American: 690 Jetprop Commander 840 / 900	L		0	
+AC95	American: 695 Jetprop Commander 1000 	L		0	
+AA1	American: AA-1	L		0	
+G164	American: G-164 Ag-Cat 	L		0	
+GA7	American: GA-7 Cougar 	L		0	
+AMX	AMX: A-1 	M		0	
+AN12	Antonow / Antonov: An-12	M		0	
+A124	Antonow / Antonov: An-124	H	F	0	
+A140	Antonow / Antonov: An-140	M		0	
+A148	Antonow / Antonov: An-148 	M		0	
+AN2	Antonow / Antonov: An-2 	L		0	
+AN22	Antonow / Antonov: An-22 Antheus 	H		0	
+A225	Antonow / Antonov: An-225 Mriya 	H		0	
+AN24	Antonow / Antonov: An-24	M		0	
+AN26	Antonow / Antonov: An-26	L		0	
+AN28	Antonow / Antonov: An-28 / PZL Mielec M-28	L		0	
+AN3	Antonow / Antonov: An-3 	L		0	
+AN30	Antonow / Antonov: An-30	L		0	
+AN32	Antonow / Antonov: An-32	L		0	
+AN38	Antonow / Antonov: An-38	M		0	
+AN70	Antonow / Antonov: An-70 	M		0	
+AN72	Antonow / Antonov: An-72 / An-74	M	C	0	
+A743	Antonow / Antonov: An-74-300 	M		0	
+AN8	Antonow / Antonov: An-8 	M		0	
+AR79	Arado: Ar-79 	L		0	
+METR	Armstrong Withworth: Meteor 	M		0	
+SHAW	Armstrong Withworth: Sea Hawk 	M		0	
+MIRA	Atlas: Cheetah 	M		0	
+RVAL	Atlas: CSH-2 Rooivalk 	M		0	
+PC7	Atlas: PC-7 Astra 	L		0	
+AT43	ATR: ATR 42-200 / 42-300	M	C	0	
+AT45	ATR: ATR 42-500	M		68	ULD
+AT72	ATR: ATR 72	M	C	68	Loose
+AT44	ATR: ATR-42-400 	M		0	
+AUS5	Auster: Auster 5 Alpha 	L		0	
+AUS6	Auster: Auster AOP6 	L		0	
+AUS9	Auster: Auster AOP9 	L		0	
+AUS7	Auster: Auster T7 	L		0	
+D4	Auster: D-4 	L		0	
+D5	Auster: D-5 	L		0	
+D6	Auster: D-6 	L		0	
+J1	Auster: J-1 Aiglet 	L		0	
+AUJ2	Auster: J-2 Arrow	L		0	
+AUJ4	Auster: J-4 Archer	L		0	
+ADVE	Auster: J-5 Adventurer 	L		0	
+AIGT	Auster: J-5 Aiglet Trainer 	L		0	
+ALPI	Auster: J-5 Alpine 	L		0	
+ACAR	Auster: J-5 Autocar 	L		0	
+NIBB	Aviamilano: F-14 Nibbio	L		0	
+F8L	Aviamilano: F-8L Falco	L		0	
+P19	Aviamilano: P-19 Scricciolo	L		0	
+M110	Aviat: 110 Special 	L		0	
+HUSK	Aviat: A-1 Husky 	L		0	
+PTSS	Aviat: S-1-11 Super Stinker	L		0	
+CARV	Aviation Traders: ATL-98 Carvair 	M		0	
+NIPR	Avions Fairey: T-66 Nipper 	L		0	
+TIPB	Avions Fairey: Tipsy B 	L		0	
+TIJU	Avions Fairey: Tipsy Junior 	L		0	
+A504	AVRO: 504	L		0	
+AVIN	AVRO: 594 / 616 Avian 	L		0	
+TUTR	AVRO: 621 Tutor 	L		0	
+ANSN	AVRO: 652 Anson 	L		0	
+LANC	AVRO: 683 Lancaster 	M		0	
+SHAC	AVRO: 696 Shackleton 	M		0	
+A748	AVRO: 748	M		0	
+A660	Ayres: S-2R-T660 Turbo Thrush 	L		0	
+SS2T	Ayres: Turbo Thrush (S-2R-G/T except T660) 	L		0	
+BA11	BAC: 111 One-Eleven 	M		0	
+JPRO	BAC: 145 Jet Provost 	L		0	
+CNBR	BAC: Canberra 	M		0	
+JAGR	BAC: Jaguar 	M		0	
+LTNG	BAC: Lightning 	M		0	
+VC10	BAC: VC-10 	H		0	
+ATP	BAe: ATP	M	C	0	
+RJ1H	BAe: Avro RJ100	M	C	100	Loose
+RJ70	BAe: Avro RJ70	M		0	
+RJ85	BAe: Avro RJ85	M	C	0	
+H25C	BAe: BAe-125-1000 	M		0	
+H25B	BAe: BAe-125-700 	M		0	
+B461	BAe: BAe-146-100 	M		0	
+B462	BAe: BAe-146-200 	M		0	
+B463	BAe: BAe-146-300 	M		0	
+JS31	BAe: BAe-3100 Jetstream 31 	L	B	0	
+JS32	BAe: BAe-3200 Jetstream Super 31 	M		0	
+JS41	BAe: BAe-4100 Jetstream 41 	M	B	0	
+BDOG	BAe: Bulldog 	L		0	
+HAR	BAe: Harrier 	M		0	
+HAWK	BAe: Hawk 	M		0	
+NIM	BAe: Nimrod 	M		0	
+DC3T	Basler: BT-67 Turbo 67 	M		0	
+AIRD	Beagle: A-109 Airedale 	L		0	
+PUP	Beagle: B-121 Pup	L		0	
+BASS	Beagle: B-206 	L		0	
+AU11	Beagle: E-3 Auster AOP11 	L		0	
+BE10	Beech: 100 King Air 	L		0	
+BE20	Beech: 1300 Commuter 	L		0	
+BE17	Beech: 17 Staggerwing 	L		0	
+BE18	Beech: 18	L		0	
+B18T	Beech: 18 (turbine) 	L		0	
+B190	Beech: 1900	M	B	0	
+STAR	Beech: 2000 Starship 	L		0	
+BE23	Beech: 23 Musketeer 	L		0	
+BE24	Beech: 24 Musketeer Super 	L		0	
+B350	Beech: 300 (B300) Super King Air 350 	L		0	
+BE30	Beech: 300 Super King Air 	L		0	
+BE33	Beech: 33 Bonanza 	L		0	
+BE35	Beech: 35 Bonanza 	L		0	
+BE36	Beech: 36 Bonanza	L		0	
+B36T	Beech: 36 Bonanza (turbine) 	L		0	
+BE40	Beech: 400 Beechjet 	M		0	
+T34P	Beech: 45 Mentor 	L		0	
+BE50	Beech: 50 Twin Bonanza 	L		0	
+BE55	Beech: 55 Baron 	L		0	
+BE58	Beech: 58 Baron 	L		0	
+BE60	Beech: 60 Duke 	L		0	
+BE65	Beech: 65 Queen Air 	L		0	
+BE70	Beech: 70 Queen Air 	L		0	
+BE76	Beech: 76 Duchess 	L		0	
+BE77	Beech: 77 Skipper 	L		0	
+BE80	Beech: 80 Queen Air 	L		0	
+BE88	Beech: 88 Queen Air 	L		0	
+BE9T	Beech: 90 (F90) King Air 	L		0	
+BE9L	Beech: 90 King Air 	L		0	
+BE95	Beech: 95 Travel Air	L		0	
+BE99	Beech: 99 Airliner 	L		0	
+T34T	Beech: T-34C Turbo Mentor 	L		0	
+U21	Beech: U-21A Ute	L		0	
+P39	Bell Aircraft: P-39 Airacobra 	L		0	
+P63	Bell Aircraft: P-63 Kingcobra 	L		0	
+UH1	Bell Helicopter: 205	L		0	
+B06T	Bell Helicopter: 206LT TwinRanger 	L		0	
+HUCO	Bell Helicopter: 209 HueyCobra 	L		0	
+B214	Bell Helicopter: 214C BigLifter 	M		0	
+BSTP	Bell Helicopter: 214ST SuperTransport 	M		0	
+B222	Bell Helicopter: 222	L		0	
+B230	Bell Helicopter: 230	L		0	
+B407	Bell Helicopter: 407	L		0	
+B427	Bell Helicopter: 427	L		0	
+B429	Bell Helicopter: 429 GlobalRanger	L		0	
+B430	Bell Helicopter: 430	L		0	
+SUCO	Bell Helicopter: SuperCobra	M		0	
+UH1Y	Bell Helicopter: UH-1Y	M		0	
+V22	Bell Helicopter: V-22 Osprey 	M		0	
+B609	Bell-Agusta: BA-609 	M		0	
+B14C	Bellanca: 14 Bellanca 260A / B / C	L		0	
+B14A	Bellanca: 14 Cruisair / Cruisemaster / Junior	L		0	
+BL17	Bellanca: 17 Super Viking 	L		0	
+BL19	Bellanca: 19 Skyrocket	L		0	
+T250	Bellanca: T-250 Aries	L		0	
+F156	Benes-Mraz: K-65 Cap 	L		0	
+SOKL	Benes-Mraz: M-1 Sokol 	L		0	
+BER4	Beriev: A-40 Albatross 	M		0	
+A50	Beriev: A-50	H		0	
+B103	Beriev: Be-103 Bekas	L		0	
+BE12	Beriev: Be-12 Tchaika 	M		0	
+BER2	Beriev: Be-200 Altair 	M		0	
+BE32	Beriev: Be-30 	M		0	
+SA20	Beriev: SA-20	L		0	
+SWOR	Blackburn: Swordfish 	L		0	
+BL11	Bleriot: 11 / XI	L		0	
+H46	Boeing Vertol: 107	M		0	
+H64	Boeing Vertol: AH-64 Longbow Apache 	M		0	
+H47	Boeing Vertol: CH-47 Chinook 	M		0	
+B701	Boeing: 707-100 	M		0	
+B703	Boeing: 707-300	H		0	
+B712	Boeing: 717-200 	M		0	
+B720	Boeing: 720	M		0	
+B721	Boeing: 727-100	M	C	0	
+R721	Boeing: 727-100RE Super 27 	M		0	
+B722	Boeing: 727-200	M	C	159	ULD
+R722	Boeing: 727-200RE Super 27 	M		0	
+B731	Boeing: 737-100	M	C	0	
+B732	Boeing: 737-200	M	C	117	ULD
+B733	Boeing: 737-300	M	C	148	Loose
+B734	Boeing: 737-400	M	C	170	Loose
+B735	Boeing: 737-500	M	C	121	Loose
+B736	Boeing: 737-600	M	C	0	
+B737	Boeing: 737-700	M	C	149	Loose
+B738	Boeing: 737-800	M	C	184	Loose
+B739	Boeing: 737-900	M	C	0	
+B741	Boeing: 747-100	H		0	
+B742	Boeing: 747-200	H		442	ULD
+B743	Boeing: 747-300	H	E	580	ULD
+B744	Boeing: 747-400	H	E	478	ULD
+BLCF	Boeing: 747-400LCF Dreamlifter 	H		0	
+B748	Boeing: 747-8	H		0	
+BSCA	Boeing: 747SCA Shuttle Carrier 	H		0	
+B74S	Boeing: 747SP	H	E	0	
+B74R	Boeing: 747SR	H		0	
+ST75	Boeing: 75 Kaydet 	L		0	
+B752	Boeing: 757-200	H	D	235	Loose
+B753	Boeing: 757-300	H		0	
+B762	Boeing: 767-200	H	D	262	ULD
+B763	Boeing: 767-300	H	D	195	ULD
+B764	Boeing: 767-400	H		0	
+B772	Boeing: 777-200	H	E	350	ULD
+B77L	Boeing: 777-200LR	H		0	
+B773	Boeing: 777-300	H	E	451	ULD
+B77W	Boeing: 777-300ER	H	E	0	
+B788	Boeing: 787-8 Dreamliner 	H		0	
+B789	Boeing: 787-9 Dreamliner 	H		0	
+B17	Boeing: B-17 Flying Fortress 	M		0	
+B29	Boeing: B-29 Superfortress 	M		0	
+B52	Boeing: B-52 Stratofortress 	H		0	
+C135	Boeing: C-135 Stratolifter 	H		0	
+C17	Boeing: C-17 Globemaster 3 	H		0	
+C97	Boeing: C-97 Stratofreighter 	M		0	
+E3CF	Boeing: E-3 (CFM56) Sentry 	H		0	
+E3TF	Boeing: E-3 (TF33) Sentry 	H		0	
+E6	Boeing: E-6 Mercury 	H		0	
+F15	Boeing: F-15 Eagle 	M		0	
+F18	Boeing: FA-18 Hornet 	M		0	
+K35A	Boeing: KC-135A Stratotanker 	H		0	
+K35E	Boeing: KC-135D/E Stratotanker 	H		0	
+K35R	Boeing: KC-135R/T Stratotanker 	H		0	
+KE3	Boeing: KE-3	H		0	
+R135	Boeing: RC-135	H		0	
+H66	Boeing-Sikorsky: RAH-66 Comanche 	L		0	
+JUNR	Bölkow: BO-208 Junior 	L		0	
+B209	Bölkow: BO-209 Monsun 	L		0	
+KL07	Bölkow: Kl-107 	L		0	
+CL30	Bombardier: BD-100 Challenger 300 	M		0	
+GL5T	Bombardier: BD-700 Global 5000 	M		0	
+GLEX	Bombardier: BD-700 Global Express 	M		0	
+BCS1	Bombardier: CSeries CS100	M		0	
+BCS3	Bombardier: CSeries CS300	M		0	
+BRB2	Brantly: B-2 	L		0	
+ALIZ	Breguet: 1050 Aliz	M		0	
+BR14	Breguet: 14 Replica 	L		0	
+BLEN	Bristol: 149 Blenheim 	L		0	
+SYCA	Bristol: 171 Sycamore 	L		0	
+BFIT	Bristol: F-2B Fighter 	L		0	
+BN2P	Britten Norman: BN-2 Islander 	L		0	
+TRIS	Britten Norman: BN-2A Mk3 Trislander 	L		0	
+BN2T	Britten Norman: BN-2T Defender 4000 / Turbine Islander 	L		0	
+BU31	Bücker: B	L		0	
+CA19	CAC: Boomerang 	L		0	
+WIRR	CAC: CA-16 Wirraway 	L		0	
+P51	CAC: CA-18 Mustang 	L		0	
+CA25	CAC: CA-25 Winjeel 	L		0	
+CH40	Campion: 402 Lancer	L		0	
+F86	Canadair: CL-13 Sabre 	M		0	
+CL2P	Canadair: CL-215 	M		0	
+CL2T	Canadair: CL-215T 	M		0	
+T33	Canadair: CL-30 Silver Star 	M		0	
+CL41	Canadair: CL-41 Tutor 	L		0	
+CL44	Canadair: CL-44 Forty Four 	M		0	
+CL4G	Canadair: CL-44-O Guppy 	M		0	
+CL60	Canadair: CL-600 Challenger 600 	M		0	
+CRJ1	Canadair: CL-600 Regional Jet CRJ-100 	M	B	0	
+CRJ2	Canadair: CL-600 Regional Jet CRJ-200 	M	B	0	
+CRJ7	Canadair: CL-600 Regional Jet CRJ-700 	M	B	0	
+CRJ9	Canadair: CL-600 Regional Jet CRJ-900 	M	C	0	
+CVLT	Canadair: Cosmopolitan 	M		0	
+BABY	Canadian Home Rotors: Baby Belle / Safari	L		0	
+CP10	CAP: CAP-10 	L		0	
+CP22	CAP: CAP-222	L		0	
+BU33	CASA: 1-133 	L		0	
+H111	CASA: 2-111 	M		0	
+S223	CASA: 223 Flamingo 	L		0	
+JU52	CASA: 352L 	M		0	
+C101	CASA: C-101 Aviojet 	L		0	
+C212	CASA: C-212 Aviocar 	M		0	
+C295	CASA: C-295 	M		0	
+PILL	CASA: E-26 Tamiz 	L		0	
+SATA	CASA: HA-220 Super Saeta 	L		0	
+C270	Caudron: C-272 / C-275 Luciole 	L		0	
+JN76	Caudron: CR-760 Cyclone Replica	L		0	
+CG3	Caudron: G-3	L		0	
+T6	CCF: T-6 Harvard 	L		0	
+CE43	Cerva: CE-43 Guepard 	L		0	
+C120	Cessna: 120	L		0	
+C140	Cessna: 140	L		0	
+C150	Cessna: 150	L		0	
+C152	Cessna: 152	L		0	
+C162	Cessna: 162 SkyCatcher	L		0	
+C170	Cessna: 170	L		0	
+C172	Cessna: 172	L		0	
+C72R	Cessna: 172RG Cutlass RG 	L		0	
+C175	Cessna: 175	L		0	
+C177	Cessna: 177	L		0	
+C77R	Cessna: 177RG Cardinal RG 	L		0	
+C180	Cessna: 180	L		0	
+C182	Cessna: 182	L		0	
+C185	Cessna: 185 Skywagon 	L		0	
+C188	Cessna: 188 AgPickup / AgWagon	L		0	
+C190	Cessna: 190	L		0	
+C195	Cessna: 195	L		0	
+C205	Cessna: 205	L		0	
+C06T	Cessna: 206 (turbine) 	L		0	
+C206	Cessna: 206 Stationair / Super Skywagon	L		0	
+C07T	Cessna: 207 (turbine) 	L		0	
+C207	Cessna: 207 Skywagon 207 	L		0	
+C208	Cessna: 208 Caravan 1 	L		0	
+C210	Cessna: 210 Centurion 	L		0	
+C310	Cessna: 310	L		0	
+A37	Cessna: 318 / A-37 Dragonfly 	L		0	
+T37	Cessna: 318 / T-37 	L		0	
+C320	Cessna: 320 Executive Skyknight 	L		0	
+C335	Cessna: 335	L		0	
+C336	Cessna: 336 Skymaster 	L		0	
+C337	Cessna: 337 Super Skymaster 	L		0	
+C340	Cessna: 340	L		0	
+C402	Cessna: 401	L		0	
+C02T	Cessna: 402 (turbine) 	L		0	
+C04T	Cessna: 404 (turbine) 	L		0	
+C404	Cessna: 404 Titan 	L		0	
+C411	Cessna: 411	L		0	
+C414	Cessna: 414	L		0	
+C14T	Cessna: 414 (turbine) 	L		0	
+C21T	Cessna: 421 (turbine) 	L		0	
+C421	Cessna: 421 Golden Eagle 	L		0	
+C425	Cessna: 425 Conquest 1 	L		0	
+C441	Cessna: 441 Conquest 2 	L		0	
+C500	Cessna: 500 Citation 1 	L		0	
+C501	Cessna: 501 Citation 1SP 	L		0	
+C510	Cessna: 510 Citation Mustang 	L		0	
+C525	Cessna: 525 Citation CJ1 	L		0	
+C25A	Cessna: 525A Citation CJ2 	L		0	
+C25B	Cessna: 525B Citation CJ3 	L		0	
+C526	Cessna: 526 CitationJet 	L		0	
+C550	Cessna: 550 Citation 2 	L		0	
+C551	Cessna: 551 Citation 2SP 	L		0	
+C560	Cessna: 560 Citation 5 	M		0	
+C56X	Cessna: 560XL Citation Excel 	M		0	
+C650	Cessna: 650 Citation 3 	M		0	
+C680	Cessna: 680 Citation Sovereign 	M		0	
+C750	Cessna: 750 Citation X	M		0	
+CMAS	Cessna: Airmaster	L		0	
+O1	Cessna: Bird Dog 	L		0	
+F406	Cessna: F406 Caravan 2 	L		0	
+C10T	Cessna: P210 (turbine) 	L		0	
+P210	Cessna: P210 Pressurized Centurion 	L		0	
+P337	Cessna: P337 Pressurized Skymaster 	L		0	
+C82R	Cessna: R182 Skylane RG 	L		0	
+C303	Cessna: T303 Crusader 	L		0	
+A7	Chance-Vought: A-7 Corsair 2 	M		0	
+CORS	Chance-Vought: F4U Corsair 	M		0	
+F8	Chance-Vought: F8 Crusader 	M		0	
+J10	Chengdu: F-10 	M		0	
+MG21	Chengdu: F-7 	M		0	
+FC1	Chengdu: FC-1 Super 7	M		0	
+MG17	Chengdu: FT-5 	L		0	
+EAGL	Christen: Eagle	L		0	
+SR20	Cirrus: SR-20 	L		0	
+SR22	Cirrus: SR-22 	L		0	
+AC11	Commander: Commander 114 	L		0	
+B24	Consolidated: B-24 Liberator 	M		0	
+CAT	Consolidated: Catalina / Canso 	M		0	
+VALI	Convair: BT-13 Valiant 	L		0	
+CVLP	Convair: C-131 	M		0	
+L13	Convair: L-13	L		0	
+P4Y	Convair: PB4Y Privateer 	M		0	
+F106	Convair: QF-106 Delta Dart 	M		0	
+C46	Curtiss: C-46 Commando	M		0	
+P40	Curtiss: Kittyhawk 	L		0	
+ETAR	Dassault: Etendard 4 	M		0	
+FA10	Dassault: Falcon 10 	M		0	
+FA20	Dassault: Falcon 20 	M		0	
+F2TH	Dassault: Falcon 2000 	M		0	
+FA50	Dassault: Falcon 50 	M		0	
+FA7X	Dassault: Falcon 7X 	M		0	
+F900	Dassault: Falcon 900 	M		0	
+FLAM	Dassault: Flamant 	L		0	
+MYS4	Dassault: MD-454A Myst	M		0	
+MIR2	Dassault: Mirage 2000 	M		0	
+MIR4	Dassault: Mirage 4 	M		0	
+MRF1	Dassault: Mirage F1 	M		0	
+RFAL	Dassault: Rafale 	M		0	
+SMB2	Dassault: Super Myst	M		0	
+ATLA	Dassault-Breguet: 1150 Atlantic / Atlantique 2 	M		0	
+AJET	Dassault-Breguet: Alpha Jet 	M		0	
+DHA3	De Havilland Australia: DHA-3 Drover 	L		0	
+DHC2	De Havilland Canada: DHC-2 Mk1 Beaver 	L		0	
+DH2T	De Havilland Canada: DHC-2 Mk3 Turbo Beaver 	L		0	
+DHC3	De Havilland Canada: DHC-3 Otter	L		0	
+DH3T	De Havilland Canada: DHC-3 Turbo Otter	L		0	
+DHC4	De Havilland Canada: DHC-4 Caribou	M		0	
+DHC5	De Havilland Canada: DHC-5 Buffalo 	M		0	
+DHC6	De Havilland Canada: DHC-6 Twin Otter	L		0	
+DHC7	De Havilland Canada: DHC-7 Dash 7	M		0	
+DH8A	De Havilland Canada: DHC-8-100 Dash 8 	M	C	0	
+DH8B	De Havilland Canada: DHC-8-200 Dash 8 	M		0	
+DH8C	De Havilland Canada: DHC-8-300 Dash 8 	M	C	0	
+DH8D	De Havilland Canada: DHC-8-400 Dash 8 	M		0	
+S2P	De Havilland Canada: S-2 Tracker 	M		0	
+VAMP	De Havilland: DH-100 Vampire 	L		0	
+DOVE	De Havilland: DH-104 Dove 	L		0	
+VNOM	De Havilland: DH-112 Venom 	M		0	
+HERN	De Havilland: DH-114 Heron 	L		0	
+TRID	De Havilland: DH-121 Trident 	M		0	
+H25A	De Havilland: DH-125 	M		0	
+DH60	De Havilland: DH-60 Moth 	L		0	
+DH80	De Havilland: DH-80 Puss Moth 	L		0	
+DH82	De Havilland: DH-82 Tiger Moth 	L		0	
+DH83	De Havilland: DH-83 Fox Moth 	L		0	
+DH85	De Havilland: DH-85 Leopard Moth 	L		0	
+DH87	De Havilland: DH-87 Hornet Moth 	L		0	
+DH88	De Havilland: DH-88 Comet Replica 	L		0	
+DH89	De Havilland: DH-89 Dragon Rapide 	L		0	
+DH90	De Havilland: DH-90 Dragonfly 	L		0	
+DH94	De Havilland: DH-94 Moth Minor 	L		0	
+MOSQ	De Havilland: DH-98 Mosquito 	M		0	
+DHC1	De Havilland: DHC-1 Chipmunk 	L		0	
+DWD2	Dewoitine: D-26 	L		0	
+DA40	Diamond: DA-40	L		0	
+DA42	Diamond: DA-42	L		0	
+DA50	Diamond: DA-50	L		0	
+DJET	Diamond: D-Jet 	L		0	
+DV20	Diamond: Katana (DA-20/DV-20) 	L		0	
+D28T	Dornier: 128-6 Turbo Skyservant 	L		0	
+D228	Dornier: 228	L	B	0	
+D328	Dornier: 328	M		0	
+DO27	Dornier: Do-27 	L		0	
+DO28	Dornier: Do-28A / Do-28B	L		0	
+D28D	Dornier: Do-28D Skyservant 	L		0	
+A20	Douglas: A-20 Havoc 	M		0	
+B26	Douglas: A-26 Invader 	M		0	
+A3	Douglas: A-3 Skywarrior 	M		0	
+A4	Douglas: A-4 Skyhawk 	M		0	
+A1	Douglas: AD-1 / A-1 / EA-1 Skyraider 	M		0	
+B23	Douglas: B-23 / UC-67 Dragon 	M		0	
+C133	Douglas: C-133 Cargomaster 	M		0	
+DC2	Douglas: DC-2 	M		0	
+DC3	Douglas: DC-3	M		0	
+DC4	Douglas: DC-4 	M		0	
+DC6	Douglas: DC-6 	M		0	
+DC7	Douglas: DC-7 	M		0	
+DC85	Douglas: DC-8-50 	H		0	
+DC86	Douglas: DC-8-60 	H		0	
+DC87	Douglas: DC-8-70 	H	D	0	
+DC91	Douglas: DC-9-10	M		0	
+DC92	Douglas: DC-9-20	M		0	
+DC93	Douglas: DC-9-30	M		0	
+DC94	Douglas: DC-9-40	M		0	
+DC95	Douglas: DC-9-50	M		0	
+SBD	Douglas: SBD Dauntless 	L		0	
+DC3S	Douglas: Super DC-3 	M		0	
+EA50	Eclipse: Eclipse 500 	L		0	
+OPCA	Edgley / Optica: EA-7 Optica 	L		0	
+C365	EKW / K+W: C-3605 	L		0	
+P28A	EMBRAER: Carioquinha	L		0	
+E110	EMBRAER: EMB 110 Bandeirante	M		0	
+E120	EMBRAER: EMB 120 Brasilia	L	B	0	
+E121	EMBRAER: EMB-121 Xingu 	L		0	
+E135	EMBRAER: EMB-135 / ERJ-135 	M	B	0	
+E145	EMBRAER: EMB-145 / ERJ-145	M	B	0	
+E45X	EMBRAER: EMB-145XR / ERJ-145XR 	M		0	
+E170	EMBRAER: EMB-170 / EMB-175 / ERJ-170 / ERJ-175	M		0	
+E190	EMBRAER: EMB-190 / EMB-195 / ERJ-190 / ERJ-195	M		0	
+IPAN	EMBRAER: EMB-200 Ipanema	L		0	
+TUCA	EMBRAER: EMB-312 Tucano 	L		0	
+E314	EMBRAER: EMB-314 Super Tucano	L		0	
+E50P	EMBRAER: EMB-500 Phenom 100 	L		0	
+E55P	EMBRAER: EMB-505 Phenom 300	L		0	
+P28B	EMBRAER: EMB-710 Carioca	L		0	
+P28R	EMBRAER: EMB-711B Corisco	L		0	
+P28T	EMBRAER: EMB-711ST Corisco 2 Turbo	L		0	
+PA32	EMBRAER: EMB-720 Minuano 	L		0	
+P32R	EMBRAER: EMB-721 Sertanejo	L		0	
+PA34	EMBRAER: EMB-810 Seneca 	L		0	
+PA31	EMBRAER: EMB-820 Navajo 	L		0	
+PA25	EMBRAER: PA-25 Pawnee 	L		0	
+EN28	Enstrom: 280 Shark 	L		0	
+EN48	Enstrom: 480	L		0	
+BK17	Eurocopter: BK-117	L		0	
+EC25	Eurocopter: EC-225 Super Puma Mk2+ 	M		0	
+TIGR	Eurocopter: EC-665 Tiger / Tigre	L		0	
+EUFI	Eurofighter: C-16 Typhoon 	M		0	
+VP2	Evans: VP-2 Volksplane	L		0	
+E200	EXTRA: EA-200 	L		0	
+E230	EXTRA: EA-230 	L		0	
+E300	EXTRA: EA-300 	L		0	
+E400	EXTRA: EA-400 	L		0	
+E500	EXTRA: EA-500 	L		0	
+A10	Fairchild: A-10 Thunderbolt 2 	M		0	
+C119	Fairchild: C-119 Flying Boxcar 	M		0	
+C123	Fairchild: C-123 Provider 	M		0	
+C82	Fairchild: C-82 Packet 	M		0	
+KR34	Fairchild: Challenger 	L		0	
+FA62	Fairchild: Cornell 	L		0	
+FA11	Fairchild: F-11 Husky 	L		0	
+SW4	Fairchild: Merlin 23 	L		0	
+SW3	Fairchild: Merlin 3 	L		0	
+FA24	Fairchild: UC-61 Argus 	L		0	
+J328	Fairchild-Dornier: 328JET 	M	B	0	
+FH11	Fairchild-Hiller: FH-1100 	L		0	
+F27	Fairchild-Hiller: FH-227	M		0	
+UH12	Fairchild-Hiller: OH-23 Raven 	L		0	
+FFLY	Fairey: Firefly 	L		0	
+GANT	Fairey: Gannet 	M		0	
+AS02	FFA: AS-202 Bravo 	L		0	
+AS2T	FFA: AS-202-32TP Turbine Bravo 	L		0	
+G46	Fiat: G-46 	L		0	
+G59	Fiat: G-59	L		0	
+FU24	Fletcher: FU-24	L		0	
+IA46	FMA: IA-46 Ranquel	L		0	
+IA50	FMA: IA-50 Guarani 2 	M		0	
+IA51	FMA: IA-51 Tehuelche	L		0	
+IA58	FMA: IA-58 Pucar	L		0	
+IA63	FMA: IA-63 Pampa 	L		0	
+FW90	Focke-Wulf: Fw-190 Replica 	L		0	
+FW44	Focke-Wulf: Fw-44 Stieglitz 	L		0	
+P149	Focke-Wulf: FWP-149 	L		0	
+F100	Fokker: 100	M	C	94	ULD
+F50	Fokker: 50	M	C	0	
+F60	Fokker: 60	M		0	
+F70	Fokker: 70	M	C	70	ULD
+D7	Fokker: D-7 Replica	L		0	
+D8	Fokker: D-8 Replica	L		0	
+DR1	Fokker: Dr-1 Replica 	L		0	
+F28	Fokker: F28 Fellowship	M		0	
+S11	Fokker: S-11 Instructor 	L		0	
+GNAT	Folland: Fo-144 Gnat 	L		0	
+TRIM	Ford: 4-AT Tri-Motor 	L		0	
+RF10	Fournier: RF-10	L		0	
+RF47	Fournier: RF-47	L		0	
+RF6	Fournier: RF-6	L		0	
+RF9	Fournier: RF-9	L		0	
+SUBA	Fuji: FA-200 Aero Subaru 	L		0	
+RC70	Fuji: FA-300 	L		0	
+KM2	Fuji: KM-2	L		0	
+T5	Fuji: KM-2Kai	L		0	
+T1	Fuji: T-1 	L		0	
+T7	Fuji: T-7	L		0	
+NOMA	GAF: Nomad 	L		0	
+JP10	GAP: JP100 Kestrel	L		0	
+PICO	General Avia: F-15 Delfino	L		0	
+PEGA	General Avia: F-20 Pegaso	L		0	
+PINO	General Avia: F-22 Pinguino 	L		0	
+ARON	General Avia: F-220 Airone	L		0	
+F111	General Dynamics: F-111	M		0	
+F16	General Dynamics: F-16 Fighting Falcon 	M		0	
+GA20	Gippsland: Fatman 	L		0	
+GA8	Gippsland: GA-8 Airvan 	L		0	
+GC1	Globe: GC-1 Swift 	L		0	
+GAUN	Gloster: Gauntlet 	L		0	
+GLAD	Gloster: Gladiator 	L		0	
+G109	Grob: G-109	L		0	
+G115	Grob: G-115 	L		0	
+G15T	Grob: G-115T Acro 	L		0	
+G120	Grob: G-120	L		0	
+G140	Grob: G-140TP	L		0	
+G160	Grob: G-160 Ranger	L		0	
+GSPN	Grob: G-180 SPn Utility Jet 	L		0	
+GF20	Grob: GF-200	L		0	
+A6	Grumman: A-6 Intruder 	M		0	
+U16	Grumman: Albatross 	M		0	
+C2	Grumman: C-2 Greyhound 	M		0	
+E2	Grumman: E-2 Hawkeye 	M		0	
+F14	Grumman: F-14 Tomcat 	M		0	
+F3F	Grumman: F3F Replica 	L		0	
+WCAT	Grumman: F4F Wildcat 	L		0	
+HCAT	Grumman: F6F Hellcat 	L		0	
+TCAT	Grumman: F7F Tigercat 	M		0	
+BCAT	Grumman: F8F Bearcat 	L		0	
+F9F	Grumman: F9F Panther 	L		0	
+GLF2	Grumman: G-1159 Gulfstream 2 	M		0	
+G159	Grumman: G-159 Gulfstream 1 	M		0	
+G21	Grumman: G-21A Goose 	L		0	
+G44	Grumman: G-44 Widgeon 	L		0	
+G73	Grumman: G-73 Mallard 	L		0	
+G73T	Grumman: G-73T Turbo Mallard 	L		0	
+G96	Grumman: G-96 Trader 	M		0	
+V1	Grumman: OV-1 Mohawk 	M		0	
+S2T	Grumman: S-2 Turbo Tracker 	M		0	
+TBM	Grumman: TBF Avenger 	M		0	
+GLF3	Gulfstream: G-1159A Gulfstream 3 	M		0	
+GLF4	Gulfstream: G-4 Gulfstream 4 	M		0	
+GLF5	Gulfstream: G-5 Gulfstream 5 	M		0	
+ALH	HAL: Dhruv 	L		0	
+HA31	HAL: HA-31 Basant	L		0	
+HT16	HAL: HJT-16 Kiran 	L		0	
+HT36	HAL: HJT-36 Sitara	L		0	
+HT32	HAL: HPT-32 Deepak	L		0	
+HT2	HAL: HT-2	L		0	
+MG23	HAL: MiG-27 Bahadur 	M		0	
+IL28	HAMC / Harbin: H-5 	M		0	
+SH5	HAMC / Harbin: SH-5	M		0	
+Y11	HAMC / Harbin: Y-11 	L		0	
+Y12	HAMC / Harbin: Y-12 	L		0	
+MI4	HAMC / Harbin: Z-5 	L		0	
+JS1	Handley Page: HP-137 Jetstream 1 	L		0	
+JS20	Handley Page: HP-137 Jetstream 200 	L		0	
+CYGT	Hawker: Cygnet	L		0	
+FURY	Hawker: Fury 	L		0	
+HIND	Hawker: Hind 	L		0	
+HUNT	Hawker: Hunter 	M		0	
+HURI	Hawker: Hurricane 	L		0	
+PRM1	Hawker-Beechcraft: 390 Premier 1 	L		0	
+HA4T	Hawker-Beechcraft: 4000 Hawker Horizon 	M		0	
+TEX2	Hawker-Beechcraft: CT-156 Harvard 2 	L		0	
+BUC	Hawker-Siddeley: Buccaneer 	M		0	
+COUR	Helio: Courier 	L		0	
+STLN	Helio: Stallion 	L		0	
+TCOU	Helio: Twin Courier	L		0	
+BU81	Heliopolis: Gomhouria 	L		0	
+S278	HESA: Shahed 278	L		0	
+HF20	HFB: HFB-320 Hansa 	M		0	
+H12T	Hiller: UH-12ET 	L		0	
+HI27	Hirth: Hi-27 Acrostar 	L		0	
+ME09	Hispano: HA-1112 Buchon 	L		0	
+HDJT	Honda: HA-420 HondaJet	L		0	
+H269	Hughes: 269	L		0	
+H500	Hughes: 369	L		0	
+PPRO	Hunting Percival: P-56 Provost 	L		0	
+PEMB	Hunting Percival: P-66 Pembroke 	L		0	
+WW23	IAI: 1123 Westwind 	M		0	
+WW24	IAI: 1124 Westwind	M		0	
+ASTR	IAI: 1125 Astra 	M		0	
+GALX	IAI: 1126 Galaxy 	M		0	
+ARVA	IAI: Arava 	L		0	
+G150	IAI: Gulfstream G150 	M		0	
+KFIR	IAI: Kfir 	M		0	
+IR46	IAR: IAR-46	L		0	
+YURO	IAR: IAR-93 / J-22 Orao	M		0	
+IS28	IAR: IS-28M2	L		0	
+I103	Ilyushin: Il-103 	L		0	
+I114	Ilyushin: Il-114 	M	C	0	
+IL14	Ilyushin: Il-14 	M		0	
+IL18	Ilyushin: Il-18 	M		0	
+IL38	Ilyushin: Il-38 	M		0	
+IL62	Ilyushin: Il-62 	H	D	0	
+IL76	Ilyushin: Il-76 	H	D	0	
+IL86	Ilyushin: Il-86 	H	D	64	ULD
+IL96	Ilyushin: Il-96 	H	E	0	
+CH2T	JAI: CH-2000 Sama	L		0	
+CH80	JAI: CH-8000 Hawk 1	L		0	
+D11	Jodel: D-11 	L		0	
+D140	Jodel: D-140 Abeille	L		0	
+D150	Jodel: D-150 Mascaret	L		0	
+D18	Jodel: D-18	L		0	
+K50	KAI: A-50 Golden Eagle 	M		0	
+KT1	KAI: KO-1 Woong-Bee	L		0	
+H43A	Kaman: HH-43A 	L		0	
+H43B	Kaman: HH-43B Huskie 	L		0	
+KMAX	Kaman: K-1200 K-Max 	L		0	
+H2	Kaman: SH-2 Seasprite 	L		0	
+K126	Kamov: Ka-126 	L		0	
+K226	Kamov: Ka-226	L		0	
+KA25	Kamov: Ka-25 	M		0	
+KA26	Kamov: Ka-26 	L		0	
+KA27	Kamov: Ka-27 	M		0	
+KA50	Kamov: Ka-50	M		0	
+KA52	Kamov: Ka-52	M		0	
+KA62	Kamov: Ka-60	L		0	
+C1	Kawasaki: C-1 	M		0	
+KH4	Kawasaki: KH-4 	L		0	
+OH1	Kawasaki: OH-1 	L		0	
+P3	Kawasaki: P-3 Orion 	M		0	
+T4	Kawasaki: T-4 	M		0	
+ANST	Kazan: Ansat 	L		0	
+A2RT	Kazan: Ansat 2RT 	L		0	
+KL35	Klemm: Kl-35 	L		0	
+KL25	Klemm: L-25 	L		0	
+LA25	Lake Aircraft: LA-250 / LA-270	L		0	
+LA4	Lake Aircraft: LA-4 / LA-200 Buccaneer 	L		0	
+LJ23	Learjet: 23	L		0	
+LJ24	Learjet: 24	L		0	
+LJ25	Learjet: 25	L		0	
+LJ31	Learjet: 31	M		0	
+LJ35	Learjet: 35	M		0	
+LJ40	Learjet: 40	M		0	
+LJ45	Learjet: 45	M		0	
+LJ55	Learjet: 55	M		0	
+LJ60	Learjet: 60	M		0	
+L18	Learjet: Learstar	M		0	
+YK11	LET: C-11 	L		0	
+L200	LET: L-200 Morava 	L		0	
+L410	LET: L-410 Turbolet 	L		0	
+L610	LET: L-610 	M		0	
+Z37P	LET: Z-237 Cmel	L		0	
+L37	Lockheed: B-34 Lexington 	M		0	
+C130	Lockheed: C-130 Hercules 	M	D	0	
+C30J	Lockheed: C-130J Hercules 	M		0	
+C141	Lockheed: C-141 Starlifter 	H		0	
+C5	Lockheed: C-5 Galaxy 	H		0	
+CONI	Lockheed: Constellation / Super Constellation	M		0	
+F104	Lockheed: F-104 Starfighter 	M		0	
+F117	Lockheed: F-117 Nighthawk 	M		0	
+F22	Lockheed: F-22 Raptor 	M		0	
+F35	Lockheed: F-35 Lightning II	M		0	
+VF35	Lockheed: F-35B Lightning II	M		0	
+P38	Lockheed: F-5 Lightning 	M		0	
+L10	Lockheed: L-10 Electra	L		310	ULD
+L101	Lockheed: L-1011 Tristar	H	D	310	ULD
+L12	Lockheed: L-12 Electra Junior 	L		0	
+L29B	Lockheed: L-1329 Jetstar 2 	M		0	
+L29A	Lockheed: L-1329 Jetstar 6 / 8	M		0	
+L14	Lockheed: L-14 Hudson 	M		0	
+L188	Lockheed: L-188 Electra 	M		0	
+P2	Lockheed: P-2 Neptune 	M		0	
+S3	Lockheed: S-3 Viking 	M		0	
+SR71	Lockheed: SR-71 Blackbird 	M		0	
+U2	Lockheed: U-2 	M		0	
+L11	Luscombe: 11A Sedan	L		0	
+SP18	Luscombe: 11E Spartan 185	L		0	
+L8	Luscombe: 50	L		0	
+M404	Martin: 404	M		0	
+B26M	Martin: B-26 Marauder 	M		0	
+MARS	Martin: JRM Mars 	M		0	
+BROU	Max Holste: MH-1521 Broussard 	L		0	
+N260	Max Holste: MH-260 Super Broussard 	M		0	
+B105	MBB: BO-105 	L		0	
+MD52	McDonnell Douglas: AH-6J 	L		0	
+DC10	McDonnell Douglas: DC-10 	H	D	0	
+MD11	McDonnell Douglas: MD-11	H	D	409	ULD
+MD60	McDonnell Douglas: MD-600N 	L		0	
+MD81	McDonnell Douglas: MD-81	M		0	
+MD82	McDonnell Douglas: MD-82	M		133	ULD
+MD83	McDonnell Douglas: MD-83	M		169	ULD
+MD87	McDonnell Douglas: MD-87	M	C	111	ULD
+MD88	McDonnell Douglas: MD-88	M		0	
+MD90	McDonnell Douglas: MD-90	M	C	121	ULD
+F4	McDonnell: F-4 Phantom 2 	M		0	
+EXPL	MD Helicopters: MD-902 Explorer 	L		0	
+ME08	Messerschmitt: Bf-108 Taifun 	L		0	
+ME62	Messerschmitt: Me-262 Replica 	L		0	
+MG44	Mikoyan: MiG 1-44	M		0	
+MG19	Mikoyan: MiG-19 	M		0	
+MG25	Mikoyan: MiG-25 	M		0	
+MG29	Mikoyan: MiG-29 	M		0	
+MG31	Mikoyan: MiG-31 	M		0	
+MGAT	Mikoyan: MiG-AT 	L		0	
+MI10	Mil: Mi-10 	M		0	
+MI14	Mil: Mi-14 	M		0	
+MI8	Mil: Mi-17 	M		0	
+MI2	Mil: Mi-2 	L		0	
+MI6	Mil: Mi-22	M		0	
+MI24	Mil: Mi-24 	M		0	
+MI26	Mil: Mi-26 	M		0	
+MI28	Mil: Mi-28 	M		0	
+MI34	Mil: Mi-34	L		0	
+MI38	Mil: Mi-38	M		0	
+WHIT	Miles: M-11 Whitney Straight	L		0	
+MAGI	Miles: M-14 Magister 	L		0	
+MONA	Miles: M-17 Monarch	L		0	
+M2HK	Miles: M-2 Hawk Major 	L		0	
+FALM	Miles: M-3 Falcon Major	L		0	
+MESS	Miles: M-38 Messenger 	L		0	
+GEMI	Miles: M-65 Gemini 	L		0	
+ZERO	Mitsubishi: A6M Zero 	L		0	
+F1	Mitsubishi: F-1 	M		0	
+F2	Mitsubishi: F-2 	M		0	
+MH20	Mitsubishi: MH-2000	L		0	
+MU2	Mitsubishi: MU-2 	L		0	
+MU30	Mitsubishi: MU-300 Diamond 	M		0	
+RP1	Mitsubishi: RP-1	L		0	
+H60	Mitsubishi: S-70 Seahawk 	M		0	
+MT2	Mitsubishi: T-2 	M		0	
+M10	Mooney: M-10 Cadet	L		0	
+MITE	Mooney: M-18	L		0	
+M20P	Mooney: M-20 	L		0	
+M20T	Mooney: M-20K 252TSE / M-20M	L		0	
+M22	Mooney: M-22 Mustang	L		0	
+MSAI	Morane-Saulnier: AI	L		0	
+MS23	Morane-Saulnier: MS-230 	L		0	
+MS31	Morane-Saulnier: MS-315 	L		0	
+MS73	Morane-Saulnier: MS-733 Alcyon 	L		0	
+MS76	Morane-Saulnier: MS-760 Paris 	L		0	
+RALL	Morane-Saulnier: Rallye 105 	L		0	
+CP20	Mudry: CAP-20	L		0	
+CP21	Mudry: CAP-21	L		0	
+CP23	Mudry: CAP-230	L		0	
+M101	Myasishchev: M-101	L		0	
+M17	Myasishchev: M-17 Stratosfera 	M		0	
+M203	Myasishchev: M-203 Barsuk	L		0	
+MYA4	Myasishchev: M-4	H		0	
+M55	Myasishchev: M-55 Geophysica 	M		0	
+VMT	Myasishchev: VM-T Atlant	H		0	
+YS11	NAMC: YS-11	M		0	
+Q5	Nanchang: A-5 	M		0	
+YK18	Nanchang: CJ-5 	L		0	
+CJ6	Nanchang: CJ-6 	L		0	
+K8	Nanchang: JL-8 Karakorum 	L		0	
+N5	Nanchang: N-5	L		0	
+NI28	Nieuport: 28 Replica 	L		0	
+NORS	Noorduyn: Norseman 	L		0	
+N110	Nord / SNCAN: 1100 Noralpha 	L		0	
+N120	Nord / SNCAN: 1200 Norecrin 	L		0	
+NORA	Nord / SNCAN: 2501 Noratlas 	M		0	
+N320	Nord / SNCAN: 3202	L		0	
+N340	Nord / SNCAN: 3400	L		0	
+NC85	Nord / SNCAN: NC-854 	L		0	
+SV4	Nord / SNCAN: SV-4 	L		0	
+LARK	North American Rockwell: 100 Lark Commander 	L		0	
+SBR2	North American Rockwell: NA-265 Sabre 75 	M		0	
+V10	North American Rockwell: OV-10 Bronco 	L		0	
+SBR1	North American Rockwell: Sabreliner 	M		0	
+T2	North American Rockwell: T-2 Buckeye 	L		0	
+B25	North American: B-25 Mitchell 	M		0	
+SSAB	North American: F-100 Super Sabre 	M		0	
+P82	North American: F-82 Twin Mustang 	M		0	
+NAVI	North American: Navion 	L		0	
+T28	North American: T-28 Trojan 	L		0	
+YALE	North American: Yale	L		0	
+B2	Northrop: B-2 Spirit 	H		0	
+C125	Northrop: C-125 Raider 	M		0	
+P61	Northrop: P-61 Black Widow 	M		0	
+T38	Northrop: T-38 Talon 	L		0	
+L40	Orlican: L-40 Meta Sokol 	L		0	
+P750	PAC: 750XL 	L		0	
+CRES	PAC: Cresco 	L		0	
+TOR	Panavia: Tornado 	M		0	
+P68T	Partenavia: AP-68TP-300 Spartacus	L		0	
+VTOR	Partenavia: AP-68TP-600 Viator	L		0	
+P57	Partenavia: P-57 Fachiro 2	L		0	
+OSCR	Partenavia: P-64 Oscar 	L		0	
+P68	Partenavia: P-68 Observer 	L		0	
+PREN	Percival: P-40 Prentice 	L		0	
+PRCE	Percival: P-57 Sea Prince 	L		0	
+PROC	Percival: Proctor 	L		0	
+VGUL	Percival: Vega Gull 	L		0	
+P136	Piaggio: P-136 	L		0	
+P148	Piaggio: P-148	L		0	
+P66P	Piaggio: P-166 	L		0	
+P66T	Piaggio: P-166DL3 	L		0	
+P180	Piaggio: P-180 Avanti 	L		0	
+P808	Piaggio: PD-808 	M		0	
+CP75	Piel: B	L		0	
+SAPH	Piel: CP-1320 Saphir	L		0	
+CP60	Piel: Diamant	L		0	
+CP30	Piel: Emeraude 	L		0	
+CP90	Piel: Pinocchio	L		0	
+CP13	Piel: Super Emeraude (CP-1310/1315/1330)	L		0	
+CP32	Piel: Super Emeraude (CP-320/325/328)	L		0	
+CP80	Piel: Z	L		0	
+PP2	Pilatus: P-2 	L		0	
+PP3	Pilatus: P-3 	L		0	
+PC12	Pilatus: PC-12	L		0	
+PC21	Pilatus: PC-21 	L		0	
+PC6P	Pilatus: PC-6 Porter 	L		0	
+PC6T	Pilatus: PC-6A/B/C Turbo-Porter 	L		0	
+PC9	Pilatus: PC-9 	L		0	
+S108	Piper: 108 Station Wagon 	L		0	
+J2	Piper: Cub (J-2) 	L		0	
+J3	Piper: Cub (J-3/L-4/NE) 	L		0	
+J4	Piper: J-4 Cub Coupe 	L		0	
+J5	Piper: J-5 Cub Cruiser	L		0	
+PA11	Piper: PA-11 Cub Special 	L		0	
+PA12	Piper: PA-12 Super Cruiser 	L		0	
+PA14	Piper: PA-14 Family Cruiser	L		0	
+PA15	Piper: PA-15 Vagabond 	L		0	
+PA16	Piper: PA-16 Clipper 	L		0	
+PA17	Piper: PA-17 Vagabond 	L		0	
+PA18	Piper: PA-18 Super Cub 	L		0	
+PA20	Piper: PA-20 Pacer 	L		0	
+PA22	Piper: PA-22 Caribbean 	L		0	
+PA23	Piper: PA-23 Apache 	L		0	
+PA27	Piper: PA-23 Aztec 	L		0	
+PA24	Piper: PA-24 Comanche 	L		0	
+PA30	Piper: PA-30 Twin Comanche 	L		0	
+PAY1	Piper: PA-31T1-500 Cheyenne 1 	L		0	
+PAT4	Piper: PA-31T3-500 T-1040 	L		0	
+PAY2	Piper: PA-31T-620 Cheyenne 2 	L		0	
+P32T	Piper: PA-32RT-300T Turbo Lance 2 	L		0	
+PA36	Piper: PA-36 Pawnee Brave 	L		0	
+PA38	Piper: PA-38 Tomahawk 	L		0	
+PAY4	Piper: PA-42-1000 Cheyenne 400 	L		0	
+PA44	Piper: PA-44 Seminole 	L		0	
+PA46	Piper: PA-46-310P Malibu 	L		0	
+P46T	Piper: PA-46-500TP Malibu Meridian 	L		0	
+AEST	Piper: PA-60 Aerostar 	L		0	
+PTMS	Pitts / Aviat: S-12 Macho Stinker	L		0	
+I153	Polikarpov: I-153 	L		0	
+I15B	Polikarpov: I-15bis 	L		0	
+I16	Polikarpov: I-16 	L		0	
+PO2	Polikarpov: Po-2 	L		0	
+PO60	Potez: 60 Sauterelle 	L		0	
+ELST	Pützer: Elster 	L		0	
+M15	PZL Mielec: M-15 Belphegor 	L		0	
+M18	PZL Mielec: M-18 Dromader 	L		0	
+M18T	PZL Mielec: M-18 Turbine Dromader 	L		0	
+M28	PZL Mielec: M-28 Skytruck	M		0	
+TS11	PZL Mielec: TS-11 Iskra 	L		0	
+TS8	PZL Mielec: TS-8 Bies 	L		0	
+PZ01	PZL Okecie: PZL-101 Gawron 	L		0	
+PZ02	PZL Okecie: PZL-102 Kos	L		0	
+PZ04	PZL Okecie: PZL-104 Wilga	L		0	
+PZ4M	PZL Okecie: PZL-104M Wilga 2000 	L		0	
+PZ05	PZL Okecie: PZL-105 Flaming	L		0	
+PZ06	PZL Okecie: PZL-106 Kruk 	L		0	
+PZ6T	PZL Okecie: PZL-106AT Turbo Kruk 	L		0	
+PZ12	PZL Okecie: PZL-112 Koliber Junior	L		0	
+PZ26	PZL Okecie: PZL-126 Mr	L		0	
+PZ3T	PZL Okecie: PZL-130 Orlik 	L		0	
+YK12	PZL Okecie: Yak-12	L		0	
+I23	PZL Swidnik: I-23 Manager	L		0	
+PSW4	PZL Swidnik: SW-4	L		0	
+W3	PZL Swidnik: W-3 Sok	L		0	
+P47	Republic: F-47 Thunderbolt 	M		0	
+RC3	Republic: RC-3 Seabee 	L		0	
+FANT	RFB: Fantrainer 	L		0	
+DR10	Robin / Apex: Ambassadeur 	L		0	
+D250	Robin / Apex: DR-200 	L		0	
+D253	Robin / Apex: DR-253 Regent 	L		0	
+HR10	Robin / Apex: HR-100	L		0	
+HR20	Robin / Apex: HR-200 	L		0	
+R100	Robin / Apex: R-1180 Aiglon	L		0	
+R300	Robin / Apex: R-300	L		0	
+B1	Rockwell: B-1 Lancer 	H		0	
+IR27	ROMBAC: IAR-827 Dacic	L		0	
+SE5R	Royal Aircraft Factory: SE-5A Replica 	L		0	
+R90F	Ruschmeyer: R-90-230FG 	L		0	
+R90R	Ruschmeyer: R-90-230RG 	L		0	
+R90T	Ruschmeyer: R-90-420AT 	L		0	
+RYST	Ryan: PT-20 	L		0	
+PT22	Ryan: PT-22 Recruit 	L		0	
+SB05	Saab: 105	L		0	
+SB20	Saab: 2000	M	C	0	
+SB29	Saab: 29 / J29	M		0	
+SB32	Saab: 32 / J32 Lansen 	M		0	
+SF34	Saab: 340	M	B	0	
+SB35	Saab: 35 / J35 Draken 	M		0	
+SB37	Saab: 37 / JA37 Viggen 	M		0	
+SB39	Saab: 39 Gripen 	M		0	
+SB91	Saab: 91 Safir 	L		0	
+MF17	Saab: MFI-15 Safari 	L		0	
+S330	Schweizer: 269D 330 	L		0	
+SA37	Schweizer: SA-2-37A Condor	L		0	
+TPIN	Scottish Aviation: Twin Pioneer 	L		0	
+J8A	Shenyang: F-8-1	M		0	
+J8B	Shenyang: F-8-2 /-3 /-4	M		0	
+SU27	Shenyang: J-11 	M		0	
+US1	Shin Meiwa: US-1 	M		0	
+SH33	Shorts: 330	M		0	
+SH36	Shorts: 360	M		0	
+SAND	Shorts: S-25 Sandringham 	M		0	
+BELF	Shorts: SC-5 Belfast	M		0	
+SC7	Shorts: SC-7 Skyvan	L		0	
+FN33	SIAI-Marchetti: FN-333 Riviera 	L		0	
+S211	SIAI-Marchetti: M-311 	L		0	
+S05F	SIAI-Marchetti: S-205-18F / S-205-20F 	L		0	
+S05R	SIAI-Marchetti: S-205-18R / S-205-20R / S-205-22R	L		0	
+S208	SIAI-Marchetti: S-208 	L		0	
+F26T	SIAI-Marchetti: SF-260TP 	L		0	
+F600	SIAI-Marchetti: SF-600 Canguro 	L		0	
+SM19	SIAI-Marchetti: SM-1019 	L		0	
+S55P	Sikorsky: CH-19 	L		0	
+S58P	Sikorsky: CH-34 Chocktaw 	L		0	
+H53	Sikorsky: CH-53	M		0	
+H53S	Sikorsky: CH-53E Super Stallion 	M		0	
+S64	Sikorsky: CH-54 Tarhe 	M		0	
+S62	Sikorsky: HH-52 Seaguard 	L		0	
+S51	Sikorsky: HO3S 	L		0	
+S52	Sikorsky: HO5S 	L		0	
+S38	Sikorsky: S-38 Replica 	L		0	
+S39	Sikorsky: S-39 	L		0	
+S55T	Sikorsky: S-55T 	L		0	
+S58T	Sikorsky: S-58T			0	
+S76	Sikorsky: S-76			0	
+S92	Sikorsky: S-92 Helibus 	M		0	
+SJ30	Sino Swearingen: SJ-30 	L		0	
+GY80	SOCATA: GY-80 Horizon 	L		0	
+MS18	SOCATA: MS-200FG Morane	L		0	
+MS25	SOCATA: MS-200RG Morane	L		0	
+MS30	SOCATA: MS-300 Epsilon 2	L		0	
+ST10	SOCATA: ST-10	L		0	
+TAMP	SOCATA: Tampico 	L		0	
+TOBA	SOCATA: TB-10 Tobago 	L		0	
+TRIN	SOCATA: TB-20 Trinidad 	L		0	
+TB31	SOCATA: TB-31 Omega	L		0	
+TBM7	SOCATA: TBM-700 	L		0	
+TBM8	SOCATA: TBM-850 	L		0	
+G2GL	SOKO: G-2 Galeb 	L		0	
+G4SG	SOKO: G-4 Super Galeb 	L		0	
+KRAG	SOKO: J-20 Kraguj 	L		0	
+JAST	SOKO: Jastreb 	L		0	
+CAML	Sopwith: Camel 	L		0	
+STRI	Sopwith: Triplane Replica	L		0	
+RF4	Sportavia-Pützer: RF-4	L		0	
+RF5	Sportavia-Pützer: RF-5	L		0	
+RS18	Sportavia-Pützer: RS-180 Sportsman 	L		0	
+S10	Stinson: 10 Voyager 	L		0	
+L5	Stinson: L-5 Sentinel 	L		0	
+RELI	Stinson: Reliant 	L		0	
+SM60	Stinson: SM-6000 Tri-Motor 	L		0	
+TRMA	Stinson: Tri-Motor (A)	L		0	
+S37	Suchoi / Sukhoi: S-37 Berkut	M		0	
+SU15	Suchoi / Sukhoi: Su-15 	M		0	
+SU17	Suchoi / Sukhoi: Su-17 	M		0	
+SU24	Suchoi / Sukhoi: Su-24 	M		0	
+SU25	Suchoi / Sukhoi: Su-25 	M		0	
+SU26	Suchoi / Sukhoi: Su-26 	L		0	
+SU29	Suchoi / Sukhoi: Su-29 	L		0	
+SU31	Suchoi / Sukhoi: Su-31 	L		0	
+SU38	Suchoi / Sukhoi: Su-38	L		0	
+SU7	Suchoi / Sukhoi: Su-7 	M		0	
+SU80	Suchoi / Sukhoi: Su-80	M		0	
+DJIN	Sud: SO-1221 Djinn 	L		0	
+VAUT	Sud: SO-4050 Vautour	M		0	
+SPIT	Supermarine: Seafire 	L		0	
+SASP	Supermarine: Spitfire Mk25 	L		0	
+SWIF	Supermarine: Swift 	M		0	
+SW2	Swearingen: SA-26 Merlin 2 	L		0	
+TA15	Taylorcraft: 15 Foursome	L		0	
+TA20	Taylorcraft: 20 Ranchwagon	L		0	
+TAYA	Taylorcraft: A	L		0	
+PLUS	Taylorcraft: Auster 1 / Plus C / Plus D	L		0	
+AUS3	Taylorcraft: Auster 3 	L		0	
+AUS4	Taylorcraft: Auster 4 	L		0	
+TAYB	Taylorcraft: BC	L		0	
+TAYD	Taylorcraft: DC	L		0	
+TF21	Taylorcraft: F-21	L		0	
+TF22	Taylorcraft: F-22	L		0	
+TF19	Taylorcraft: Sportsman (F-19)	L		0	
+SL90	Technoavia (Interavia): I-1	L		0	
+I3	Technoavia (Interavia): I-3	L		0	
+SM20	Technoavia (Interavia): SM-2000	L		0	
+Y18T	Technoavia (Interavia): SM-2000P 	L		0	
+SM92	Technoavia (Interavia): SM-92 Finist 	L		0	
+SG92	Technoavia (Interavia): SM-92T Turbo Finist 	L		0	
+SP55	Technoavia (Interavia): SP-55	L		0	
+SP91	Technoavia (Interavia): SP-91 Slava 	L		0	
+SP95	Technoavia (Interavia): SP-95	L		0	
+C160	Transport Allianz: C-160 	M		0	
+T134	Tupolev: Tu-134	M	C	74	ULD
+TU95	Tupolev: Tu-142 	H		0	
+T144	Tupolev: Tu-144 	H		0	
+T154	Tupolev: Tu-154	M	D	165	ULD
+TU16	Tupolev: Tu-16 	M		0	
+T160	Tupolev: Tu-160 	H		0	
+T204	Tupolev: Tu-204 / Tu-214	M	D	0	
+TU22	Tupolev: Tu-22	M		0	
+T22M	Tupolev: Tu-22M 	M		0	
+T334	Tupolev: Tu-334 	M		0	
+TU4	Tupolev: Tu-4	M		0	
+UU12	Udet: U-12 Flamingo Replica 	L		0	
+UT60	UTVA: 60	L		0	
+UT65	UTVA: 65 Privrednik	L		0	
+UT66	UTVA: 66	L		0	
+UT75	UTVA: 75	L		0	
+RV10	Vans: RV-10	L		0	
+RV3	Vans: RV-3	L		0	
+RV4	Vans: RV-4	L		0	
+RV4T	Vans: RV-4T	L		0	
+RV6	Vans: RV-6	L		0	
+RV7	Vans: RV-7	L		0	
+RV8	Vans: RV-8	L		0	
+RV9	Vans: RV-9	L		0	
+VF14	VFW: VFW-614 	M		0	
+VIMY	Vickers: FB-27 Vimy Replica 	L		0	
+VISC	Vickers: Viscount	M		0	
+ACSR	Victa / AESL: Aircruiser	L		0	
+WACF	WACO Classic: YMF 	L		0	
+WACO	WACO: 10	L		0	
+WAC9	WACO: 9	L		0	
+WACC	WACO: AGC, AQC	L		0	
+WACN	WACO: AVN	L		0	
+WACG	WACO: CRG	L		0	
+WACE	WACO: E (ARE/HRE/SRE) Aristocrat	L		0	
+WACA	WACO: IBA, PBA, PLA, RBA, UBA, ULA	L		0	
+WACM	WACO: JWM, JYM	L		0	
+WACT	WACO: RPT	L		0	
+WACD	WACO: S3HD	L		0	
+WA40	Wassmer: WA-40 Super 4 	L		0	
+WA41	Wassmer: WA-41 Baladou	L		0	
+WA42	Wassmer: WA-421 Prestige 	L		0	
+WA50	Wassmer: WA-51 Pacific 	L		0	
+WA80	Wassmer: WA-80 Piranha	L		0	
+WG30	Westland: 30	L		0	
+LYNX	Westland: Lynx 	L		0	
+LYSA	Westland: Lysander 	L		0	
+SCOU	Westland: Scout 	L		0	
+WASP	Westland: Wasp 	L		0	
+WESX	Westland: Wessex 	L		0	
+Y112	Yakovlev / Jakovlev: Yak-112	L		0	
+Y141	Yakovlev / Jakovlev: Yak-141	M		0	
+YK42	Yakovlev / Jakovlev: Yak-142 	M	C	0	
+YK28	Yakovlev / Jakovlev: Yak-28 	M		0	
+YAK3	Yakovlev / Jakovlev: Yak-3 	L		0	
+YK38	Yakovlev / Jakovlev: Yak-38 	M		0	
+YK40	Yakovlev / Jakovlev: Yak-40 	M	C	0	
+YK50	Yakovlev / Jakovlev: Yak-50 	L		0	
+YK53	Yakovlev / Jakovlev: Yak-53	L		0	
+YK54	Yakovlev / Jakovlev: Yak-54	L		0	
+YK55	Yakovlev / Jakovlev: Yak-55 	L		0	
+YK58	Yakovlev / Jakovlev: Yak-58	L		0	
+YAK9	Yakovlev / Jakovlev: Yak-9 	L		0	
+EDGE	Zivko: Edge 540 	L		0	
+SAVG	Zlin: Savage	L		0	
+Z26	Zlin: Z-126 Trener 2 	L		0	
+Z37T	Zlin: Z-137 Agro Turbo 	L		0	
+Z42	Zlin: Z-142 	L		0	
+Z43	Zlin: Z-143 	L		0	
+Z22	Zlin: Z-22 Junak	L		0	
+Z50	Zlin: Z-50 	L		0	
+SSC	Aerospatiale / SNIAS: Concorde	H		0	
+NDC	Aerospatiale / SNIAS: SN-601 Corvette 	L		0	
+AGH	Agusta / AgustaWestland: A-109 	L		0	
+AB3	Airbus: A300	H		216	ULD
+AB6	Airbus: A300-600	H	D	269	ULD
+ABY	Airbus: A300-600F	H		0	
+ABB	Airbus: A300-600ST Beluga	H		0	
+AB4	Airbus: A300B2/B4/C4	H		0	
+ABX	Airbus: A300C4/F4 Freighter	H		0	
+ABF	Airbus: A300F	H		0	
+310	Airbus: A310	H		241	ULD
+312	Airbus: A310-200	H	D	0	
+31X	Airbus: A310-200F	M		0	
+313	Airbus: A310-300	H	D	190	ULD
+31Y	Airbus: A310-300F	M		0	
+31F	Airbus: A310F	M		0	
+318	Airbus: A318	M		0	
+32C	Airbus: A318 (sharklets)	M		0	
+319	Airbus: A319	M	C	135	Loose
+32D	Airbus: A319 (sharklets)	M		0	
+320	Airbus: A320	M	C	180	Loose
+32A	Airbus: A320 (sharklets)	M		0	
+321	Airbus: A321	M	C	182	Loose
+32B	Airbus: A321 (sharklets)	M		0	
+330	Airbus: A330	H		0	
+33F	Airbus: A330 Freighter	H		0	
+332	Airbus: A330-200	H	E	371	ULD
+33X	Airbus: A330-200 Freighter	H		0	
+333	Airbus: A330-300	H	E	362	ULD
+340	Airbus: A340	H		299	ULD
+342	Airbus: A340-200	H	E	295	ULD
+343	Airbus: A340-300	H	E	265	ULD
+345	Airbus: A340-500	H	E	0	
+346	Airbus: A340-600	H	E	0	
+358	Airbus: A350-800	H		0	
+359	Airbus: A350-900	H		0	
+380	Airbus: A380	H	F	0	
+388	Airbus: A380-800	H		0	
+CS5	Airtech: CN-235	M		0	
+ANF	Antonow / Antonov: An-12	M		0	
+A4F	Antonow / Antonov: An-124	H	F	0	
+A40	Antonow / Antonov: An-140	M		0	
+AN4	Antonow / Antonov: An-24	M		0	
+A26	Antonow / Antonov: An-26	L		0	
+AN6	Antonow / Antonov: An-26 / An-30 / An-32	M		0	
+A28	Antonow / Antonov: An-28 / PZL Mielec M-28	L		0	
+A30	Antonow / Antonov: An-30	L		0	
+A32	Antonow / Antonov: An-32	L		0	
+AN7	Antonow / Antonov: An-72 / An-74	M	C	0	
+ATR	ATR: ATR 42 / ATR 72	M		0	
+AT4	ATR: ATR 42-300 / 320	M	C	50	Loose
+AT5	ATR: ATR 42-500	M		68	ULD
+AT7	ATR: ATR 72	M	C	68	Loose
+B11	BAC: One Eleven	M		0	
+B12	BAC: One Eleven 200	M		0	
+B13	BAC: One Eleven 300	M		0	
+B14	BAC: One Eleven 400/47	M		0	
+B15	BAC: One Eleven 500	M		0	
+146	BAe: 146	M		0	
+14F	BAe: 146 Freighter (-100/200/300QT & QC)	M		0	
+14X	BAe: 146 Freighter (-100QT & QC)	M		0	
+14Y	BAe: 146 Freighter (-200QT & QC)	M		0	
+14Z	BAe: 146 Freighter (-300QT & QC)	M		0	
+141	BAe: 146-100	M		0	
+142	BAe: 146-200	M		98	ULD
+143	BAe: 146-300	M		0	
+AR1	BAe: Avro RJ100	M	C	100	Loose
+AR7	BAe: Avro RJ70	M		0	
+ARJ	BAe: Avro RJ70 / RJ85 / RJ100	M	C	0	
+AR8	BAe: Avro RJ85	M	C	0	
+HS7	BAe: HS.748	M		0	
+J31	BAe: Jetstream 31	L	B	0	
+JST	BAe: Jetstream 31 / 32 / 41	L		0	
+J32	BAe: Jetstream 32	L		0	
+J41	BAe: Jetstream 41	M	B	0	
+BES	Beech: 1900/1900C	M		0	
+BE1	Beech: 1900/1900C/1900D	M		0	
+BEH	Beech: 1900D	M	B	0	
+BEC	Beech: Beech light aircraft	L		0	
+BEP	Beech: Beech singe piston	L		0	
+BE2	Beech: Beech twin piston	L		0	
+BET	Beech: Beech twin turboprop	L		0	
+BH2	Bell Helicopter: Bell Helicopters			0	
+70M	Boeing: 707 Combi	H		0	
+70F	Boeing: 707 Freighter	H		0	
+707	Boeing: 707/720	H		0	
+703	Boeing: 707-300	H		0	
+717	Boeing: 717	M	B	105	Loose
+B72	Boeing: 720B	M		0	
+727	Boeing: 727	M		0	
+72M	Boeing: 727 Combi	M		0	
+72F	Boeing: 727 Freighter (-100/200)	M		0	
+721	Boeing: 727-100	M	C	0	
+72X	Boeing: 727-100 Freighter	M		0	
+72B	Boeing: 727-100 Mixed	M		0	
+722	Boeing: 727-200	M	C	159	ULD
+72S	Boeing: 727-200 Adv.	M	C	153	ULD
+72Y	Boeing: 727-200 Freighter	M		0	
+72C	Boeing: 727-200 Mixed	M		0	
+737	Boeing: 737	M		144	ULD
+73F	Boeing: 737 Freighter	M		0	
+731	Boeing: 737-100	M	C	0	
+732	Boeing: 737-200	M	C	117	ULD
+73M	Boeing: 737-200 Combi	M		0	
+73X	Boeing: 737-200 Freighter	M		0	
+733	Boeing: 737-300	M	C	148	Loose
+73C	Boeing: 737-300 (winglets)	M		0	
+73Y	Boeing: 737-300 Freighter	M		0	
+734	Boeing: 737-400	M	C	170	Loose
+735	Boeing: 737-500	M	C	121	Loose
+736	Boeing: 737-600	M	C	0	
+73G	Boeing: 737-700	M	C	149	Loose
+73W	Boeing: 737-700 (winglets)	M		0	
+738	Boeing: 737-800	M	C	184	Loose
+73H	Boeing: 737-800 (winglets) 	M		0	
+739	Boeing: 737-900	M	C	0	
+73J	Boeing: 737-900 (winglets) 	M		0	
+747	Boeing: 747	H		0	
+74M	Boeing: 747 Combi	H		0	
+74F	Boeing: 747 Freighter	H		0	
+741	Boeing: 747-100	H		0	
+74T	Boeing: 747-100 Freighter	H		0	
+742	Boeing: 747-200	H		442	ULD
+74C	Boeing: 747-200 Combi	H		0	
+74X	Boeing: 747-200 Freighter	H		0	
+743	Boeing: 747-300	H	E	580	ULD
+74U	Boeing: 747-300 / 747-200 SUD Freighter	H		0	
+74D	Boeing: 747-300 Combi	H		0	
+744	Boeing: 747-400	H	E	478	ULD
+74J	Boeing: 747-400 (Domestic)	H		0	
+74E	Boeing: 747-400 Combi	H		0	
+74Y	Boeing: 747-400 Freighter	H		0	
+74N	Boeing: 747-8F	H		0	
+74H	Boeing: 747-8i	H		0	
+74L	Boeing: 747SP	H	E	0	
+74R	Boeing: 747SR	H		0	
+74V	Boeing: 747SR Freighter	H		0	
+757	Boeing: 757	H		235	ULD
+75F	Boeing: 757 Freighter	H		0	
+75M	Boeing: 757 Mixed	H		0	
+752	Boeing: 757-200	H	D	235	Loose
+75W	Boeing: 757-200 (winglets)	H		0	
+753	Boeing: 757-300	H		0	
+75T	Boeing: 757-300 (winglets) 	H		0	
+767	Boeing: 767	H		252	ULD
+76F	Boeing: 767 Freighter	H		0	
+762	Boeing: 767-200	H	D	262	ULD
+76X	Boeing: 767-200 Freighter	H		0	
+763	Boeing: 767-300	H	D	195	ULD
+76W	Boeing: 767-300 (winglets) 	H		0	
+76Y	Boeing: 767-300 Freighter	H		0	
+764	Boeing: 767-400	H		0	
+777	Boeing: 777	H		0	
+77F	Boeing: 777 Freighter	H		0	
+772	Boeing: 777-200	H	E	350	ULD
+77L	Boeing: 777-200LR	H		0	
+773	Boeing: 777-300	H	E	451	ULD
+77W	Boeing: 777-300ER	H	E	0	
+788	Boeing: 787-8 Dreamliner 	H		0	
+789	Boeing: 787-9 Dreamliner 	H		0	
+CS1	Bombardier: CSeries CS100	M		0	
+CS3	Bombardier: CSeries CS300	M		0	
+CCX	Bombardier: Global Express	M		0	
+BNT	Britten Norman: BN-2A Mk III Trislander	L		0	
+BNI	Britten Norman: BN-2A/B Islander	L		0	
+CCJ	Canadair: Challenger	M		0	
+CL4	Canadair: CL-44 Forty Four 	M		0	
+CRJ	Canadair: CRJ	M		0	
+CR1	Canadair: CRJ 100	M	B	0	
+CRK	Canadair: CRJ 1000	M		0	
+CR2	Canadair: CRJ 200	M	B	0	
+CR7	Canadair: CRJ 700	M	B	0	
+CRA	Canadair: CRJ 705	M		0	
+CR9	Canadair: CRJ 900	M	C	0	
+CRF	Canadair: CRJ Freighter	M		0	
+CS2	CASA: 212 Aviocar	M		0	
+CNA	Cessna: Cessna light aircraft	L		0	
+CN1	Cessna: Cessna single piston engine	L		0	
+CNC	Cessna: Cessna single turboprop engine	L		0	
+CN2	Cessna: Cessna twin piston engines	L		0	
+CNT	Cessna: Cessna twin turboprop engines	L		0	
+CNJ	Cessna: Citation	L		0	
+CVR	Convair: CV-240 / 440 / 580 / 600 / 640	M		0	
+CVF	Convair: CV-240 / 440 / 580 / 600 / 640 Freighter	M		0	
+CVV	Convair: CV-240 Freighter	M		0	
+CVX	Convair: CV-440 Freighter	M		0	
+CV4	Convair: CV-440 Metropolitan	M		0	
+CV5	Convair: CV-580	M		0	
+CVY	Convair: CV-580 / 600 / 640 Freighter	M		0	
+CWC	Curtiss: C-46 Commando	M		0	
+DFL	Dassault: Falcon	M		0	
+DF2	Dassault: Falcon 10 / 100 / 20 / 200 / 2000	M		0	
+DF3	Dassault: Falcon 50 / 900	M		0	
+DHP	De Havilland Canada: DHC-2 Beaver	L		0	
+DHB	De Havilland Canada: DHC-2 Beaver / Turbo Beaver	L		0	
+DHR	De Havilland Canada: DHC-2 Turbo-Beaver	L		0	
+DHS	De Havilland Canada: DHC-3 Otter	L		0	
+DHO	De Havilland Canada: DHC-3 Otter / Turbo Otter	L		0	
+DHL	De Havilland Canada: DHC-3 Turbo Otter	L		0	
+DHC	De Havilland Canada: DHC-4 Caribou	M		0	
+DHT	De Havilland Canada: DHC-6 Twin Otter	L		0	
+DH7	De Havilland Canada: DHC-7 Dash 7	M		0	
+DH8	De Havilland Canada: DHC-8 Dash 8	M		0	
+DH1	De Havilland Canada: DHC-8-100 Dash 8 / 8Q	M	C	37	Loose
+DH2	De Havilland Canada: DHC-8-200 Dash 8 / 8Q	M		0	
+DH3	De Havilland Canada: DHC-8-300 Dash 8 / 8Q	M	C	0	
+DH4	De Havilland Canada: DHC-8-400 Dash 8Q	M		0	
+DHD	De Havilland: DH.104 Dove	L		0	
+DHH	De Havilland: DH.114 Heron	L		0	
+FRJ	Dornier: 328JET	M	B	0	
+D28	Dornier: Do 228	L	B	18	ULD
+D38	Dornier: Do 328	M	B	0	
+D10	Douglas: DC-10	H		0	
+D1M	Douglas: DC-10 Combi	H		0	
+D1F	Douglas: DC-10 Freighter	H		0	
+D1X	Douglas: DC-10-10 Freighter	H	D	0	
+D1Y	Douglas: DC-10-30 / 40 Freighter	H		0	
+D1C	Douglas: DC-10-30/40	H	D	0	
+D3F	Douglas: DC-3 Freighter	M		0	
+D6F	Douglas: DC-6A/B/C Freighter	M		0	
+DC8	Douglas: DC-8	H		0	
+D8M	Douglas: DC-8 Combi	H		0	
+D8F	Douglas: DC-8 Freighter	H		0	
+D8T	Douglas: DC-8-50 Freighter	H		0	
+D8X	Douglas: DC-8-61 / 62 / 63 Freighter	H		0	
+D8L	Douglas: DC-8-62	H		0	
+D8Y	Douglas: DC-8-71 / 72 / 73 Freighter	H		0	
+D8Q	Douglas: DC-8-72	H	D	0	
+DC9	Douglas: DC-9	M		0	
+D9F	Douglas: DC-9 Freighter	M		0	
+D91	Douglas: DC-9-10	M		0	
+D9X	Douglas: DC-9-10 Freighter	M		0	
+D92	Douglas: DC-9-20	M		0	
+D93	Douglas: DC-9-30	M		0	
+D9C	Douglas: DC-9-30 Freighter	M		0	
+D94	Douglas: DC-9-40	M		0	
+D95	Douglas: DC-9-50	M		0	
+EMB	EMBRAER: EMB 110 Bandeirante	M		0	
+EM2	EMBRAER: EMB 120 Brasilia	L	B	0	
+EMJ	EMBRAER: EMB 170 / EMB 190	M		0	
+E70	EMBRAER: EMB-170 / EMB-175 / ERJ-170 / ERJ-175	M		0	
+E90	EMBRAER: EMB-190 / EMB-195 / ERJ-190 / ERJ-195	M		0	
+ER3	EMBRAER: ERJ 135	M	B	0	
+ERJ	EMBRAER: ERJ 135 / ERJ 140 / ERJ 145	M		0	
+ERD	EMBRAER: ERJ 140	M		0	
+ER4	EMBRAER: ERJ 145	M	B	50	ULD
+NDE	Eurocopter: AS350 Ecureuil / AS355 Ecureuil 2			0	
+APH	Eurocopter: SA330 Puma / AS332 Super Puma			0	
+NDH	Eurocopter: SA365C / SA365N Dauphin 2			0	
+FK7	Fairchild-Hiller: FH-227	M		0	
+SWM	Fairchild-Swearingen: SA26 / SA226 / SA227 Metro / Merlin	L		0	
+100	Fokker: 100	M	C	94	ULD
+F21	Fokker: F28 Fellowship 1000	M		0	
+F23	Fokker: F28 Fellowship 3000	M		0	
+F24	Fokker: F28 Fellowship 4000	M		0	
+CD2	GAF: N22B / N24A Nomad	L		0	
+GRG	Grumman: G-21 Goose	L		0	
+GRJ	Gulfstream: G-1159 Gulfstream II / III / IV / V	M		0	
+GRS	Gulfstream: G-159 Gulfstream I	M		0	
+GRM	Gulfstream: G-73 Turbo Mallard	L		0	
+YN2	HAMC / Harbin: Y-12 	L		0	
+H25	Hawker-Siddeley: HS.125	M		0	
+HEC	Helio: H-250 Courier / H-295 / 385 Super Courier	L		0	
+WWP	IAI: 1124 Westwind	M		0	
+I14	Ilyushin: Il-114 	M	C	0	
+IL8	Ilyushin: Il-18 	M		0	
+IL6	Ilyushin: Il-62 	H	D	0	
+IL7	Ilyushin: Il-76 	H	D	0	
+ILW	Ilyushin: Il-86 	H	D	64	ULD
+IL9	Ilyushin: Il-96 	H	E	0	
+I9F	Ilyushin: IL-96 Freighter	H		0	
+I93	Ilyushin: IL-96-300	H	E	260	ULD
+I9X	Ilyushin: IL-96-300 Freighter	H		0	
+I9M	Ilyushin: IL-96M	H		0	
+I9Y	Ilyushin: IL-96T Freighter	H		0	
+JU5	Junkers: Ju 52/3M	M		0	
+LRJ	Learjet: Gates Learjet	M		0	
+L4T	LET: L-410	L		0	
+L15	Lockheed: L-1011 500 Tristar	H	D	310	ULD
+L1F	Lockheed: L-1011 Tristar Freighter	H		0	
+L49	Lockheed: L-1049 Super Constellation	M		0	
+LOH	Lockheed: L-182 / 282 / 382 (L-100) Hercules	M	D	0	
+LOE	Lockheed: L-188 Electra	M		0	
+LOF	Lockheed: L-188 Electra Freighter	M		0	
+LOM	Lockheed: L-188 Electra Mixed	M		0	
+MBH	MBB: BO-105 	L		0	
+M11	McDonnell Douglas: MD-11	H	D	409	ULD
+M1F	McDonnell Douglas: MD-11 Freighter	H		0	
+M1M	McDonnell Douglas: MD-11 Mixed	H		0	
+M80	McDonnell Douglas: MD-80	M		133	ULD
+M81	McDonnell Douglas: MD-81	M		0	
+M82	McDonnell Douglas: MD-82	M		133	ULD
+M83	McDonnell Douglas: MD-83	M		169	ULD
+M87	McDonnell Douglas: MD-87	M	C	111	ULD
+M88	McDonnell Douglas: MD-88	M		0	
+M90	McDonnell Douglas: MD-90	M	C	121	ULD
+MD9	MD Helicopters: MD900 Explorer			0	
+MIH	Mil: Mi-8 / Mi-17 / Mi-171 / Mil-172			0	
+YS1	NAMC: YS-11	M		0	
+ND2	Nord / SNCAN: N.262	M		0	
+PN6	Partenavia: P.68	L		0	
+PL2	Pilatus: PC-12	L		0	
+PL6	Pilatus: PC-6 Turbo Porter	L		0	
+PAG	Piper: Piper light aircraft	L		0	
+PA1	Piper: Piper single piston engine	L		0	
+PA2	Piper: Piper twin piston engines	L		0	
+PAT	Piper: Piper twin turboprop engines	L		0	
+ACP	Rockwell: Commander	L		0	
+ACD	Rockwell: Commander/Turbo Commander	L		0	
+S20	Saab: 2000	M	C	0	
+SF3	Saab: SF340A/B	M	B	0	
+SHB	Shorts: SC-5 Belfast	M		0	
+SHS	Shorts: SC-7 Skyvan	L		0	
+SH3	Shorts: SD.330	M		0	
+SH6	Shorts: SD.360	M		0	
+S58	Sikorsky: S-58T			0	
+CRV	Sud-Est: SE.210 Caravelle	M		0	
+TU3	Tupolev: Tu-134	M	C	74	ULD
+TU5	Tupolev: Tu-154	M	D	165	ULD
+T20	Tupolev: Tu-204 / Tu-214	M	D	0	
+VCV	Vickers: Viscount	M		0	
+YN7	Xian: Yunshuji Y7	M		0	
+YK4	Yakovlev / Jakovlev: Yak-40 	M	C	0	
+YK2	Yakovlev / Jakovlev: Yak-42 	M	C	0	

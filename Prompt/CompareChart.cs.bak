@@ -1,0 +1,152 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Collections;
+using SIMCORE_TOOL.Prompt;
+using Nevron.Chart.WinForm;
+
+namespace SIMCORE_TOOL
+{
+    public partial class CompareChart : Form
+    {
+
+        GestionDonneesHUB2SIM DonneesEnCours_;
+        TreeNodeCollection treenode;
+        ImageList imgList;
+        ColumnInformation SelectedTable;
+        String[] ScenarioNames;
+        ArrayList alScenarioNames;
+        ToolStripMenuItem sender_;
+        SIM_Assistant_Creation_Graphics_Filters Sacgf;
+        Prompt.SIM_Graphic_Association sga;
+        GraphicFilter gf;
+        Boolean wholeChartMode;
+
+        internal SIM_Graphic_Association getSga()
+        {
+            return sga;
+        }
+
+        internal GraphicFilter getGf()
+        {
+            return gf;
+        }
+        public CompareChart(GestionDonneesHUB2SIM DonneesEnCours, TreeView treeview, ImageList imageList1,ToolStripMenuItem sender)
+        {
+            DonneesEnCours_ = DonneesEnCours;
+            imgList = imageList1;
+            treenode = treeview.Nodes;
+            sender_ = sender;
+            wholeChartMode = false;
+            OverallTools.FonctionUtiles.MajBackground(this);
+            InitializeComponent();
+            ScenarioNames = DonneesEnCours.getScenariosReadyToSimulate();
+            alScenarioNames = new ArrayList(ScenarioNames);
+            alScenarioNames.Sort(new OverallTools.FonctionUtiles.ColumnsComparer());
+            foreach (String Name in alScenarioNames)
+            {
+                listBox1.Items.Add(Name);
+            }
+        }
+
+        private void cancel_Click(object sender, EventArgs e)
+        {
+
+            DialogResult = DialogResult.Cancel;
+                this.Close(); 
+        }
+
+        private void Okbutton_Click(object sender, EventArgs e)
+        {
+            SelectedTable = new ColumnInformation(listBox2.Items[0].ToString(), sender_.Tag.ToString(), sender_.Tag.ToString(), sender_.Tag.ToString());
+            Prompt.SIM_Graphic_Association sga = new Prompt.SIM_Graphic_Association(DonneesEnCours_, treenode, SelectedTable, imgList);
+
+            gf = DonneesEnCours_.getGraphicFilter(sender_.Tag.ToString());
+            Sacgf = new SIM_Assistant_Creation_Graphics_Filters(DonneesEnCours_, treenode, gf, imgList);
+
+            sga.changeLabel1();
+            sga.setTableNameMode();
+
+
+            if (listBox2.Items.Count > 1)
+            {
+
+
+                if (sga.ShowDialog() != DialogResult.OK)
+                {
+                    this.Close();
+                }
+                else
+                {
+                    if (!wholeChartMode)
+                    {
+                        for (int i = 0; i < listBox2.Items.Count; i++)
+                        {
+                            ColumnInformation column = new ColumnInformation(listBox2.Items[i].ToString(), sga.Column.TableName, sga.Column.ColumnName, sga.Column.AbscissaColumnName, listBox2.Items[i].ToString() + sga.getDisplayedName() + sga.Column.ColumnName);
+                            Sacgf.Add_Column_Click(column);
+                        }
+                    }
+                    else
+                    {
+                        SelectedTable = sga.Column;
+
+                        DataTable table = DonneesEnCours_.getTable(alScenarioNames[0].ToString(), SelectedTable.TableName);
+                        DataColumnCollection dccColum = table.Columns;
+                        for (int i = 0; i < alScenarioNames.Count; i++)
+                        {
+                            for (int j = 0; j < dccColum.Count; j++)
+                            {
+                                if (dccColum[j].ToString().CompareTo(sga.Column.AbscissaColumnName.ToString()) != 0)
+                                {
+                                    SelectedTable = new ColumnInformation(alScenarioNames[i].ToString(), sga.Column.TableName, dccColum[j].ToString(), sga.Column.AbscissaColumnName, alScenarioNames[i].ToString() + sga.getDisplayedName() + dccColum[j].ToString());
+                                    Sacgf.Add_Column_Click(SelectedTable);
+                                }
+                            }
+                        }
+                    }
+                    if (Sacgf.ShowDialog() != DialogResult.OK)
+                    {
+                        this.Close();
+                    }
+                    else
+                    {
+                        gf = Sacgf.getFilter();
+                        if (gf == null)
+                            this.Close();
+                        DialogResult = DialogResult.OK;
+                        this.Close();
+                    }
+                }
+            }
+            else MessageBox.Show("Select a least two scenarios", "warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private void AddButton_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem != null)
+            {
+                listBox2.Items.Add(listBox1.SelectedItem);
+                listBox1.Items.Remove(listBox1.SelectedItem);
+            }
+            
+        }
+
+        private void RemoveButton_Click(object sender, EventArgs e)
+        {
+            if (listBox2.SelectedItem != null)
+            {
+                listBox1.Items.Add(listBox2.SelectedItem);
+                listBox2.Items.Remove(listBox2.SelectedItem);
+            }
+        }
+
+        internal void setWholeChartMode()
+        {
+            wholeChartMode = true;
+        }
+    }
+}

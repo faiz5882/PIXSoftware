@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Window reservation</value>
+  </data>
+  <data name="&gt;&gt;txt_NCIColl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_WindowSize.Name" xml:space="preserve">
+    <value>txt_WindowSize</value>
+  </data>
+  <data name="lbl_ArrIF.Text" xml:space="preserve">
+    <value>Arrival Infeeds</value>
+  </data>
+  <data name="&gt;&gt;lbl_MU.Name" xml:space="preserve">
+    <value>lbl_MU</value>
+  </data>
+  <data name="&gt;&gt;txt_NCI.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lbl_ArrIF.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_MTrIF.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_DeskNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="&gt;&gt;txt_NCI.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="lbl_HBS3.Text" xml:space="preserve">
+    <value>HBS Lev.3 machines</value>
+  </data>
+  <data name="lbl_HBS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MHBS1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Index.Text" xml:space="preserve">
+    <value>Index max</value>
+  </data>
+  <data name="&gt;&gt;lbl_WindowSize.Name" xml:space="preserve">
+    <value>lbl_WindowSize</value>
+  </data>
+  <data name="&gt;&gt;txt_MCIColl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lbl_CIColl.Name" xml:space="preserve">
+    <value>lbl_CIColl</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_MCI.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lbl_ArrIF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_NHBS1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_NArrIF.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbl_ArrIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 60</value>
+  </data>
+  <data name="message1" xml:space="preserve">
+    <value>Invalid value for the window size reservation </value>
+  </data>
+  <data name="lbl_Index.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;lbl_MES.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MES.Name" xml:space="preserve">
+    <value>lbl_MES</value>
+  </data>
+  <data name="lbl_HBS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_MMU.Name" xml:space="preserve">
+    <value>txt_MMU</value>
+  </data>
+  <data name="txt_NHBS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 135</value>
+  </data>
+  <data name="&gt;&gt;txt_MTrIF.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lbl_MES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 190</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Index.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="txt_NMES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 187</value>
+  </data>
+  <data name="txt_MCI.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_WindowSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_NCIColl.Name" xml:space="preserve">
+    <value>txt_NCIColl</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrIF.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS1.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_NTrIF.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txt_NCI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS1.Name" xml:space="preserve">
+    <value>txt_MHBS1</value>
+  </data>
+  <data name="&gt;&gt;lbl_CI_Desks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_WindowSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 46</value>
+  </data>
+  <data name="lbl_CIColl.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cb_WindowReservationCollector.Text" xml:space="preserve">
+    <value>Use window reservation Collectors</value>
+  </data>
+  <data name="lbl_DeskNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lbl_MES.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lbl_CIColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lbl_MES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BHS_General_Assistant</value>
+  </data>
+  <data name="lbl_TrIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="txt_NArrIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 57</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS1.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="lbl_TrIF.Text" xml:space="preserve">
+    <value>Transfer Infeeds</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS1.Name" xml:space="preserve">
+    <value>txt_NHBS1</value>
+  </data>
+  <data name="&gt;&gt;txt_NCI.Name" xml:space="preserve">
+    <value>txt_NCI</value>
+  </data>
+  <data name="cb_WindowReservationCollector.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txt_NCIColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 239</value>
+  </data>
+  <data name="txt_NMU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BHS_General_Assistant</value>
+  </data>
+  <data name="txt_MMES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 187</value>
+  </data>
+  <data name="txt_MTrIF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MCI.Name" xml:space="preserve">
+    <value>txt_MCI</value>
+  </data>
+  <data name="&gt;&gt;btn_Ok.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 287</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cb_WindowReservationCollector.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="txt_MMU.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_CIColl.Text" xml:space="preserve">
+    <value>Check-In Collectors</value>
+  </data>
+  <data name="lbl_WindowSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="txt_MCIColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS3.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_MCIColl.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrIF.Name" xml:space="preserve">
+    <value>lbl_TrIF</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS3.Name" xml:space="preserve">
+    <value>txt_NHBS3</value>
+  </data>
+  <data name="txt_NHBS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;cb_WindowReservationCollector.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MCIColl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MArrIF.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="lbl_Index.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 24</value>
+  </data>
+  <data name="txt_NMU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 213</value>
+  </data>
+  <data name="lbl_CI_Desks.Text" xml:space="preserve">
+    <value>Check-In desks</value>
+  </data>
+  <data name="&gt;&gt;txt_MTrIF.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS3.Name" xml:space="preserve">
+    <value>lbl_HBS3</value>
+  </data>
+  <data name="txt_MHBS3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_CIColl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_TrIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 112</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MMES.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MTrIF.Name" xml:space="preserve">
+    <value>txt_MTrIF</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS1.Name" xml:space="preserve">
+    <value>lbl_HBS1</value>
+  </data>
+  <data name="txt_MMU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 213</value>
+  </data>
+  <data name="txt_MCI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MArrIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_WindowReservationCollector.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_Index.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_HBS1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txt_NTrIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 109</value>
+  </data>
+  <data name="&gt;&gt;lbl_MU.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_DeskNumber.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="txt_NArrIF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 77</value>
+  </data>
+  <data name="lbl_HBS3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 164</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 382</value>
+  </data>
+  <data name="lbl_MES.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_WindowSize.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_CIColl.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="txt_MMU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="lbl_DeskNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btn_Ok.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_HBS3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbl_MU.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAACMuAAAjLgAAAAAAAAAA
+        AAD////////////////////////////////////////////////////8/PywquumofCuq/GrqfGrq/Gr
+        rPKrrfOqrvOqsPSpsPSpsfSosPSmrvWzufrp6f/////////////////T0tKTkpGbmpmbmpmUkpLe3d3/
+        ///9/f309PPr6url5OPi4eDZ2NGBd7MvI7xicNZfcNNSZdFJX9BAWdA3Us8vTM8oRs8gP88aO9AZPNMb
+        QdUxWNyUqu7////////////Avb1fXVxraWhraWhhX17Lysn08/Pf3dza2NfZ19ba2Nfb2dje3Nvj4tOb
+        lLlPUcdwj99tjttcfNhQcdZEZdM5WdIuTdElQdAiQNIiRNQiRtYaRNgGOdiMpe3////////DwcFpZ2Z0
+        cnF0cnFta2q5t7fi4N/b2djc2tnc2tnc2tnc2tnc2tne3Nzk5NWlnrpFR8JPbdZScdRDYdE6VtAwTM8m
+        P84jPM8jQtIjRdQjR9YiS9kbStsfUN70+v/////DwcFpZ2Z0cnF0cnFta2q4trXk4uHc2tnc2tnc2tnc
+        2tnc2tnc2djb2djc2trj4tayrbxGSb43U9A9Ws8yS80oPswkOc0kPc8jQtIjRdQjR9YiS9khTtwNQ9zI
+        2v/////DwcFpZ2Z0cnF0cnFta2q4trXk4uHc2tnb2dja19ba2Nfc2tne3Nvg3t3h397j4eHp6N7FwcVO
+        Ur4kOssrPssmNcslOc0kPs8jQtIjRdQjR9YiS9khTtwOQ9y70P/////DwcFpZ2Z0cnF0cnFta2q4trXk
+        4uHa2Nfe3Nzq6enz8/P5+fn8/Pz+/v7///////////////7j4d1cYcIWI8glM8slOs0kPs8jQtIjRdQj
+        R9YiS9khTtwORNy60P/////DwcFpZ2Z0cnF0cnFta2q5t7bh397m5eT8+/v/////////////////////
+        ///////////////////v7uRrccQWJskiN84kPs8jQtIjRdQjR9YiS9khTtwOQ9y4zf/////DwcFpZ2Z0
+        cnF0cnFta2q2tLPr6un////////////////////////////////////////////////////39ul9hMcX
+        LcsfOtAjQtIjRdQjR9YiS9khTtwNQ9y1zP/////DwcFpZ2Z0cnF0cnFsamm3tbT+/f3/////////////
+        ///////////////////////////////////////////9++2Pl8kcNswdPdQjRdQjR9YiS9khTtwNQ9yz
+        yv/////DwcFpZ2Z0cnF0cnFraWi/vbz/////////////////////////////////////////////////
+        //////////////////KfpsohP84eQdojR9YiS9khTtwNQ9ywyP/////DwcFpZ2Z0cnF0cnFpZ2bJyMf/
+        //////////////////////////////////////////////////////////////////////NqboUhQMYe
+        Rd8iS9khTtwNQ9ytxv/////DwcFpZ2Z0cnF0cnFraWjDwsHz8/Lz8vLz8vLz8vLz8vLz8vLz8vLz8vLz
+        8vLz8vLz8vLz8vLz8vLz8vLz8vLz8vLz8/Ly8vOHg3dcXWkrScMbSOQhTt0NQ9yqw//////DwcFpZ2Z0
+        cnF0cnFzcXB4dnV6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6
+        eHd6eHd1c3N3c2loZ2k2UbMaSuQBN92jvv/////DwcFpZ2Z0cnF0cnF0cnFycG9wbm1wbm1wbm1wbm1w
+        bm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1xbm1zcXB0cnJ2c21xbWRZZY9Ved+7
+        z/////+/vb1dW1ppZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2Zp
+        Z2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2Zsaml1cGWCemfm5+j2+f/////p6enHxsbLysrLysrLysrLysrL
+        ysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLy8vR0M3L
+        x7t/iKo2VbsXStujvv//////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////y8exyh9keSeAaSuQIP9ujvv/////z8/Ph4ODj
+        4+Lj4+Lh4eD29fX/////////////////////////////////////////////////////////////////
+        //////7b2tpKYssQONcgSdohTtwNQ9yowv/////CwMBlY2Jwbm1wbm1mZGPOzc3/////////////////
+        //////////////////////////////////////////////////zR0tY/V8oUONUjR9YiS9khTtwNQ9ur
+        xP/////DwcFnZWRycG9ycG9oZmXPzs7/////////////////////////////////////////////////
+        //////////////rIydM3TcgVNtMkRNQjR9YiS9khTtwNQ9yuxv/////DwcFpZ2Z0cnF0cnFqaGfPzs7/
+        //////////////////////////////////////////////////////////m+wNEwQ8cXM9AkQtIjRNQj
+        R9YiS9khTtwNQ9yxyf/////DwcFpZ2Z0cnF0cnFqaGfPzs7/////////////////////////////////
+        //////////////////////e0tc4rOcYaMM4lP88jQtIjRNQjR9YiS9khTtwNQ9y0y//////DwcFpZ2Z0
+        cnF0cnFqaGfPzs7///////////////////////////////////////////////////WoqcslLsQdLMwm
+        O80kPs8jQtIjRNQjR9YiS9khTtwNRNy3zf/////DwcFpZ2Z0cnF0cnFqaGfPzs7/////////////////
+        //////////////////////////////Kcm8clL8MgLsknNMslOs0kPs8jQtIjRNQjR9YiS9khTtwORNy6
+        z//////DwcFpZ2Z0cnF0cnFqaGfPzs7////////////////////////////////////////+/u+QjMQp
+        NcQyTM4uQ8smNsskOM0kPs8jQtIjRNQjR9YiS9khTtwNQ9y80f/////DwcFpZ2Z0cnF0cnFqaGfPzs7/
+        ///////////////////////////////////6+uyDfcAyPsdHZtM/XNA1T84qQs0kOc0kPc8jQtIjRNQj
+        R9YiS9khTtwORNzS4v/////DwcFpZ2Z0cnF0cnFqaGfPzs7////////////////////////////////1
+        9el3b75ASspff9hTctRHZdI8WtEyT9AoQs8jPc8jQdIjRNQjR9YjS9kVRdouXOD8//////+/vLxdWllo
+        ZmVoZmVeW1rMysr////////////////////////////r6+Vxab1WYdF8nuFrittbfdhPcdZDZdQ3WdIt
+        TdEiQNAdPNEdP9QcQdUPPNYWRdq3xvT////////m5eXAv7/FxMTFxMTBwL/r6+v/////////////////
+        ///////u7+lzZ7w3K8FkatFZYM5TXc5OW85JWc9DVs8+VNA6UtE1T9ExTdIvTtU1VtlffePM1vb/////
+        ///////////////////////////////////////////////////////////59v/9+//59f/69//7+P/8
+        +v/9+//+/f///v//////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="&gt;&gt;txt_NMU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_MU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_NMU.Name" xml:space="preserve">
+    <value>txt_NMU</value>
+  </data>
+  <data name="txt_MTrIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 109</value>
+  </data>
+  <data name="txt_MHBS1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_NCI.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_NCI.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lbl_MU.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txt_NMU.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;txt_MArrIF.Name" xml:space="preserve">
+    <value>txt_MArrIF</value>
+  </data>
+  <data name="&gt;&gt;txt_NMES.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_Info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 269</value>
+  </data>
+  <data name="&gt;&gt;txt_NCIColl.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_CIColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 242</value>
+  </data>
+  <data name="txt_MCIColl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 239</value>
+  </data>
+  <data name="txt_NHBS3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_CI_Desks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lbl_Index.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MMU.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="txt_NCIColl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txt_NArrIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;gb_Info.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_MArrIF.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS3.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_MMES.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_WindowSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_CI_Desks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_MU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 216</value>
+  </data>
+  <data name="txt_NMES.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_TrIF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_MU.Text" xml:space="preserve">
+    <value>Make-Up positions</value>
+  </data>
+  <data name="lbl_DeskNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MTrIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_NMES.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="gb_Info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 12</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 35</value>
+  </data>
+  <data name="lbl_CI_Desks.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txt_MHBS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txt_WindowSize.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="message2" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="&gt;&gt;txt_NMU.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl_TrIF.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lbl_WindowSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 49</value>
+  </data>
+  <data name="&gt;&gt;txt_NMES.Name" xml:space="preserve">
+    <value>txt_NMES</value>
+  </data>
+  <data name="&gt;&gt;txt_MCIColl.Name" xml:space="preserve">
+    <value>txt_MCIColl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Index.Name" xml:space="preserve">
+    <value>lbl_Index</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS1.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="gb_Info.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_ArrIF.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txt_NMU.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_HBS3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MHBS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="lbl_DeskNumber.Text" xml:space="preserve">
+    <value>Number 
+of Desks</value>
+  </data>
+  <data name="&gt;&gt;cb_WindowReservationCollector.Name" xml:space="preserve">
+    <value>cb_WindowReservationCollector</value>
+  </data>
+  <data name="&gt;&gt;gb_Info.Name" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_MU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MES.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="cb_WindowReservationCollector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="&gt;&gt;lbl_CIColl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MMES.Name" xml:space="preserve">
+    <value>txt_MMES</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="gb_Info.Text" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="&gt;&gt;txt_NArrIF.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_CI_Desks.Name" xml:space="preserve">
+    <value>lbl_CI_Desks</value>
+  </data>
+  <data name="txt_NHBS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txt_NCI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 83</value>
+  </data>
+  <data name="txt_MArrIF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_Ok.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 35</value>
+  </data>
+  <data name="&gt;&gt;lbl_CI_Desks.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_WindowSize.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrIF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;txt_MCI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_CI_Desks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 86</value>
+  </data>
+  <data name="&gt;&gt;txt_NArrIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_MArrIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MArrIF.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txt_NCIColl.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_Index.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_MCI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 83</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS3.Name" xml:space="preserve">
+    <value>txt_MHBS3</value>
+  </data>
+  <data name="btn_Ok.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MMU.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lbl_ArrIF.Name" xml:space="preserve">
+    <value>lbl_ArrIF</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_DeskNumber.Name" xml:space="preserve">
+    <value>lbl_DeskNumber</value>
+  </data>
+  <data name="cb_WindowReservationCollector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 17</value>
+  </data>
+  <data name="&gt;&gt;txt_NTrIF.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="txt_NCIColl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_CIColl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txt_NTrIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="lbl_WindowSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gb_Info.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_MMES.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_MTrIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_HBS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txt_NTrIF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_NTrIF.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lbl_MES.Text" xml:space="preserve">
+    <value>ME Station</value>
+  </data>
+  <data name="lbl_ArrIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="btn_Ok.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="lbl_WindowSize.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MES.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_NArrIF.Name" xml:space="preserve">
+    <value>txt_NArrIF</value>
+  </data>
+  <data name="txt_MCIColl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_MMES.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_MCI.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txt_NHBS3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="txt_NArrIF.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txt_MCI.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;cb_WindowReservationCollector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_WindowSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_DeskNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Ok.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Ok.Name" xml:space="preserve">
+    <value>btn_Ok</value>
+  </data>
+  <data name="txt_MCIColl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="txt_NCIColl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="txt_NHBS1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txt_MMU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_WindowSize.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_NMES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_MHBS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_NMES.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>409, 438</value>
+  </data>
+  <data name="txt_MHBS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 135</value>
+  </data>
+  <data name="btn_Ok.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 382</value>
+  </data>
+  <data name="&gt;&gt;lbl_ArrIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_MU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MArrIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 57</value>
+  </data>
+  <data name="lbl_ArrIF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_WindowSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_CI_Desks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_NMES.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="txt_MMES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_NCI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_MHBS3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 161</value>
+  </data>
+  <data name="txt_NHBS3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 161</value>
+  </data>
+  <data name="&gt;&gt;txt_NMU.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_NHBS3.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txt_NTrIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MMU.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;txt_NTrIF.Name" xml:space="preserve">
+    <value>txt_NTrIF</value>
+  </data>
+  <data name="txt_MHBS3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lbl_HBS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 138</value>
+  </data>
+  <data name="&gt;&gt;txt_MMES.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_HBS3.Parent" xml:space="preserve">
+    <value>gb_Info</value>
+  </data>
+  <data name="lbl_WindowSize.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="&gt;&gt;lbl_WindowSize.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="lbl_HBS1.Text" xml:space="preserve">
+    <value>HBS Lev.1 machines</value>
+  </data>
+  <data name="lbl_Index.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl_WindowSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_DeskNumber.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>French</value>
+  </metadata>
+</root>

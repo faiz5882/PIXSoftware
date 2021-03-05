@@ -1,0 +1,471 @@
+warning: LF will be replaced by CRLF in bin/Debug/PAX2SIM.exe.manifest.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bin/Debug/Ressources/ReleaseNotes.html.
+The file will have its original line endings in your working directory
+arning: LF will be replaced by CRLF in bin/Release/PAX2SIM.exe.manifest.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bin/Release/Ressources/ReleaseNotes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in obj/Debug/PAX2SIM.exe.manifest.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in obj/Release/PAX2SIM.TrustInfo.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in obj/Release/PAX2SIM.exe.manifest.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.svn/wc.db b/.svn/wc.db[m
+[1mindex 0615ca1..ffb7ef4 100644[m
+Binary files a/.svn/wc.db and b/.svn/wc.db differ
+[1mdiff --git a/.vs/SIMCORE_TOOL2/v15/.suo b/.vs/SIMCORE_TOOL2/v15/.suo[m
+[1mindex c750219..04ee171 100644[m
+Binary files a/.vs/SIMCORE_TOOL2/v15/.suo and b/.vs/SIMCORE_TOOL2/v15/.suo differ
+[1mdiff --git a/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide b/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide[m
+[1mindex 7dc56b1..174c777 100644[m
+Binary files a/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide and b/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide differ
+[1mdiff --git a/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-shm b/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-shm[m
+[1mindex bcf64fe..ba17ff0 100644[m
+Binary files a/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-shm and b/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-shm differ
+[1mdiff --git a/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-wal b/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-wal[m
+[1mindex cf75b8b..d59ebcc 100644[m
+Binary files a/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-wal and b/.vs/SIMCORE_TOOL2/v15/Server/sqlite3/storage.ide-wal differ
+[1mdiff --git a/Backup/PAX2SIM.cs b/Backup/PAX2SIM.cs[m
+[1mindex 903a19b..5f4cea7 100644[m
+[1m--- a/Backup/PAX2SIM.cs[m
+[1m+++ b/Backup/PAX2SIM.cs[m
+[36m@@ -10208,6 +10208,14 @@[m [mnamespace SIMCORE_TOOL[m
+             {[m
+                 Parametres.isTraceAnalysisScenario = true;  // >> Bug #15556 Pax2Sim - Scenario Properties Assistant issues C#23[m
+             }[m
+[32m+[m
+[32m+[m[32m            if (errorList.Count > 0)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                clearListIfUserAgrees();[m
+[32m+[m[32m            }[m
+[32m+[m
+[32m+[m[32m            //setErrors(new ArrayList(), false);  // >> Task #19690[m
+[32m+[m
+             Double dEndingTime = OverallTools.DataFunctions.MinuteDifference(Parametres.DateDebut, Parametres.DateFin);[m
+             TreeNode ScenarioPosition = OverallTools.TreeViewFunctions.RechercherNomEnfants(Parametres.Name, treeView1.Nodes[2]);[m
+             bool bErase = false;[m
+[36m@@ -26921,6 +26929,7 @@[m [mreturn;[m
+         #endregion[m
+         // << Task #10553 Pax2Sim - Pax analysis - Summary - Dashboard[m
+ [m
+[32m+[m[32m        #region New Reports menu[m
+         // >> Task #13384 Report Tree-view        [m
+         private void cmsReports_Opening(object sender, CancelEventArgs e)[m
+         {[m
+[36m@@ -28102,6 +28111,7 @@[m [mreturn;[m
+             OverallTools.TreeViewFunctions.refreshMainReportsNode(DonneesEnCours.htReportParametres, treeView1.Nodes, DonneesEnCours, cmsReports);[m
+         }[m
+         // << Task #13384 Report Tree-view[m
+[32m+[m[32m        #endregion[m
+ [m
+         private void exportAsTextFilesToolStripMenuItem_Click(object sender, EventArgs e)   // >> Task #14533 Pax2Sim - Export Scenario tables from result tree[m
+         {[m
+[36m@@ -29176,12 +29186,7 @@[m [mreturn;[m
+         {[m
+             if (errorList.Count > 0)[m
+             {[m
+[31m-                if (MessageBox.Show("Are you sure you want to remove the recorded messages?", "Error List", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)[m
+[31m-                {[m
+[31m-                    errorList.Clear();[m
+[31m-                    lesErreurs.setErrors(errorList);[m
+[31m-                    lesErreurs.Hide();[m
+[31m-                }[m
+[32m+[m[32m                clearListIfUserAgrees();[m
+             }[m
+             else[m
+             {[m
+[36m@@ -29189,6 +29194,16 @@[m [mreturn;[m
+             }[m
+         }[m
+ [m
+[32m+[m[32m        private void clearListIfUserAgrees()[m
+[32m+[m[32m        {[m
+[32m+[m[32m            if (MessageBox.Show("Are you sure you want to remove the recorded error messages?", "Error List", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                errorList.Clear();[m
+[32m+[m[32m                lesErreurs.setErrors(errorList);[m
+[32m+[m[32m                lesErreurs.Hide();[m
+[32m+[m[32m            }[m
+[32m+[m[32m        }[m
+[32m+[m
+         // >> Task #19542[m
+         private void updateInputFlightCategories(DataTable sourceTable)[m
+         {[m
+[1mdiff --git a/Backup/PAX2SIM.resx b/Backup/PAX2SIM.resx[m
+[1mindex 10dff6d..35ecee4 100644[m
+[1m--- a/Backup/PAX2SIM.resx[m
+[1m+++ b/Backup/PAX2SIM.resx[m
+[36m@@ -3451,7 +3451,7 @@[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0[m
+         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACq[m
+[31m-        UgAAAk1TRnQBSQFMAgEBSQEAAQQBFgEEARYBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo[m
+[32m+[m[32m        UgAAAk1TRnQBSQFMAgEBSQEAARQBFgEUARYBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo[m
+         AwABQAMAATABAQIAAQEBAAEIBgABTBgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc[m
+         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA[m
+         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz[m
+[36m@@ -4570,13 +4570,13 @@[m
+     <value>[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0[m
+[31m-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAWwEAAAIB[m
+[31m-        AAAAAQAAAAAAAAAAAAAAAEYBAABnVWZVAA4AADg+AAA7LwAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+[32m+[m[32m        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAZwEAAAIB[m
+[32m+[m[32m        AAAAAQAAAAAAAAAAAAAAAFIBAABnVWZVAA4AADNTAAA7LwAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+         AABXAGkAbgBkAG8AdwAAAAgABgAAAC0AMQAAAAgABgAAAC0AMQAAAAgACgAAAEgAaQBnAGgAAAAIAAIA[m
+         AAAAAAgABgAAAC0AMQAAAAgAAAAAAAgAAgAAAAAACAAQAAAAUwBoAG8AdwBBAGwAbAAAAAgABAAAADAA[m
+         AAAIAAQAAAAwAAAACAACAAAAAAAIAAAAAAAIAAIAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAgABAAAADEA[m
+         AAAIAAQAAAAwAAAACAAAAAAACAAEAAAAMAAAAAgACAAAAGEAbABsAAAACAAMAAAAZgBhAGwAcwBlAAAA[m
+[31m-        CAAMAAAAZgBhAGwAcwBlAAAACAAEAAAAMAAAAAgADAAAAHMAYwBhAGwAZQAAAAs=[m
+[32m+[m[32m        CAAMAAAAZgBhAGwAcwBlAAAACAAEAAAAMAAAAAgADAAAAHMAYwBhAGwAZQAAAAgABgAAAC0AMQAAAAs=[m
+ </value>[m
+   </data>[m
+   <data name="axShockwaveFlash1.Size" type="System.Drawing.Size, System.Drawing">[m
+[36m@@ -4670,13 +4670,14 @@[m
+     <value>[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0[m
+[31m-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAZQEAAAIB[m
+[31m-        AAAAAQAAAAAAAAAAAAAAAFABAABnVWZVAA4AAN2VAADRVgAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+[32m+[m[32m        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAaQEAAAIB[m
+[32m+[m[32m        AAAAAQAAAAAAAAAAAAAAAFQBAABnVWZVAA4AAN2VAADRVgAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+         AABXAGkAbgBkAG8AdwAAAAgABgAAAC0AMQAAAAgABgAAAC0AMQAAAAgACgAAAEgAaQBnAGgAAAAIAAIA[m
+         AAAAAAgABgAAAC0AMQAAAAgAAAAAAAgAAgAAAAAACAAQAAAAUwBoAG8AdwBBAGwAbAAAAAgABAAAADAA[m
+         AAAIAAQAAAAwAAAACAACAAAAAAAIAAAAAAAIAAIAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAgABAAAADEA[m
+         AAAIAAQAAAAwAAAACAAAAAAACAAEAAAAMAAAAAgACAAAAGEAbABsAAAACAAMAAAAZgBhAGwAcwBlAAAA[m
+[31m-        CAAMAAAAZgBhAGwAcwBlAAAACAAOAAAALQAyADEAMAA1ADIAAAAIAAwAAABzAGMAYQBsAGUAAAAL[m
+[32m+[m[32m        CAAMAAAAZgBhAGwAcwBlAAAACAAGAAAALQAxAAAACAAMAAAAcwBjAGEAbABlAAAACAAGAAAALQAxAAAA[m
+[32m+[m[32m        Cw==[m
+ </value>[m
+   </data>[m
+   <data name="shockwaveFlashForItinerary.Size" type="System.Drawing.Size, System.Drawing">[m
+[36m@@ -4707,13 +4708,14 @@[m
+     <value>[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0[m
+[31m-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAIB[m
+[31m-        AAAAAQAAAAAAAAAAAAAAAE4BAABnVWZVAA4AAMY5AADhFAAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+[32m+[m[32m        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAaQEAAAIB[m
+[32m+[m[32m        AAAAAQAAAAAAAAAAAAAAAFQBAABnVWZVAA4AAMY5AADhFAAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+         AABXAGkAbgBkAG8AdwAAAAgABgAAAC0AMQAAAAgABgAAAC0AMQAAAAgACgAAAEgAaQBnAGgAAAAIAAIA[m
+         AAAAAAgABgAAAC0AMQAAAAgAAAAAAAgAAgAAAAAACAAQAAAAUwBoAG8AdwBBAGwAbAAAAAgABAAAADAA[m
+         AAAIAAQAAAAwAAAACAACAAAAAAAIAAAAAAAIAAIAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAgABAAAADEA[m
+         AAAIAAQAAAAwAAAACAAAAAAACAAEAAAAMAAAAAgACAAAAGEAbABsAAAACAAMAAAAZgBhAGwAcwBlAAAA[m
+[31m-        CAAMAAAAZgBhAGwAcwBlAAAACAAMAAAALQAyADIAMAA4AAAACAAMAAAAcwBjAGEAbABlAAAACw==[m
+[32m+[m[32m        CAAMAAAAZgBhAGwAcwBlAAAACAAGAAAALQAxAAAACAAMAAAAcwBjAGEAbABlAAAACAAGAAAALQAxAAAA[m
+[32m+[m[32m        Cw==[m
+ </value>[m
+   </data>[m
+   <data name="axShockwaveFlash3.Size" type="System.Drawing.Size, System.Drawing">[m
+[36m@@ -4744,13 +4746,14 @@[m
+     <value>[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0[m
+[31m-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAZQEAAAIB[m
+[31m-        AAAAAQAAAAAAAAAAAAAAAFABAABnVWZVAA4AALJoAADYEwAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+[32m+[m[32m        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAaQEAAAIB[m
+[32m+[m[32m        AAAAAQAAAAAAAAAAAAAAAFQBAABnVWZVAA4AALJoAADYEwAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+         AABXAGkAbgBkAG8AdwAAAAgABgAAAC0AMQAAAAgABgAAAC0AMQAAAAgACgAAAEgAaQBnAGgAAAAIAAIA[m
+         AAAAAAgABgAAAC0AMQAAAAgAAAAAAAgAAgAAAAAACAAQAAAAUwBoAG8AdwBBAGwAbAAAAAgABAAAADAA[m
+         AAAIAAQAAAAwAAAACAACAAAAAAAIAAAAAAAIAAIAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAgABAAAADEA[m
+         AAAIAAQAAAAwAAAACAAAAAAACAAEAAAAMAAAAAgACAAAAGEAbABsAAAACAAMAAAAZgBhAGwAcwBlAAAA[m
+[31m-        CAAMAAAAZgBhAGwAcwBlAAAACAAOAAAALQAxADcAOAAwADcAAAAIAAwAAABzAGMAYQBsAGUAAAAL[m
+[32m+[m[32m        CAAMAAAAZgBhAGwAcwBlAAAACAAGAAAALQAxAAAACAAMAAAAcwBjAGEAbABlAAAACAAGAAAALQAxAAAA[m
+[32m+[m[32m        Cw==[m
+ </value>[m
+   </data>[m
+   <data name="axShockwaveFlash2.Size" type="System.Drawing.Size, System.Drawing">[m
+[36m@@ -4841,13 +4844,14 @@[m
+     <value>[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0[m
+[31m-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAZQEAAAIB[m
+[31m-        AAAAAQAAAAAAAAAAAAAAAFABAABnVWZVAA4AAFpnAADaVwAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+[32m+[m[32m        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAaQEAAAIB[m
+[32m+[m[32m        AAAAAQAAAAAAAAAAAAAAAFQBAABnVWZVAA4AAFpnAADaVwAACAACAAAAAAAIAAAAAAAIAAAAAAAIAA4A[m
+         AABXAGkAbgBkAG8AdwAAAAgABgAAAC0AMQAAAAgABgAAAC0AMQAAAAgACgAAAEgAaQBnAGgAAAAIAAIA[m
+         AAAAAAgABgAAAC0AMQAAAAgAAAAAAAgAAgAAAAAACAAQAAAAUwBoAG8AdwBBAGwAbAAAAAgABAAAADAA[m
+         AAAIAAQAAAAwAAAACAACAAAAAAAIAAAAAAAIAAIAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAgABAAAADEA[m
+         AAAIAAQAAAAwAAAACAAAAAAACAAEAAAAMAAAAAgACAAAAGEAbABsAAAACAAMAAAAZgBhAGwAcwBlAAAA[m
+[31m-        CAAMAAAAZgBhAGwAcwBlAAAACAAOAAAALQAyADgANwA2ADQAAAAIAAwAAABzAGMAYQBsAGUAAAAL[m
+[32m+[m[32m        CAAMAAAAZgBhAGwAcwBlAAAACAAGAAAALQAxAAAACAAMAAAAcwBjAGEAbABlAAAACAAGAAAALQAxAAAA[m
+[32m+[m[32m        Cw==[m
+ </value>[m
+   </data>[m
+   <data name="axShockwaveFlashForDashboard.Size" type="System.Drawing.Size, System.Drawing">[m
+[36m@@ -5959,7 +5963,7 @@[m
+         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w[m
+         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0[m
+         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA8[m
+[31m-        EAAAAk1TRnQBSQFMAgEBCgEAAfQBFQH0ARUBEgEAARIBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo[m
+[32m+[m[32m        EAAAAk1TRnQBSQFMAgEBCgEAAQQBFgEEARYBEgEAARIBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo[m
+         AwABSAMAATYDAAEBAQABCAUAATABDxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc[m
+         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA[m
+         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz[m
+[1mdiff --git a/Backup/Prompt/SIM_Scenarios_Assistant.cs b/Backup/Prompt/SIM_Scenarios_Assistant.cs[m
+[1mindex bde4407..1ade0fc 100644[m
+[1m--- a/Backup/Prompt/SIM_Scenarios_Assistant.cs[m
+[1m+++ b/Backup/Prompt/SIM_Scenarios_Assistant.cs[m
+[36m@@ -618,13 +618,11 @@[m [mnamespace SIMCORE_TOOL.Prompt[m
+                 }*/[m
+                 param.UseMakeUpSegregation = cb_SIM_MakeUpSegregation.Checked;[m
+                 param.UseExSegregation = cb_ex_MakeUpSegregation.Checked;[m
+[31m-                if (generateLocalISTCheckBox.Visible)   // >> Task #13955 Pax2Sim -BHS trace loading issue[m
+[31m-                    param.bhsGenerateLocalIST = generateLocalISTCheckBox.Checked;[m
+[31m-                if (generateGroupISTcheckBox.Visible)   // >> Task #14280 Bag Trace Loading time too long[m
+[31m-                    param.bhsGenerateGroupIST = generateGroupISTcheckBox.Checked;[m
+[31m-                if (generateMUPSegregationCheckBox.Visible)   // >> Task #14280 Bag Trace Loading time too long[m
+[31m-                    param.bhsGenerateMUPSegregation = generateMUPSegregationCheckBox.Checked;[m
+[31m-                                [m
+[32m+[m
+[32m+[m[32m                param.bhsGenerateLocalIST = generateLocalISTCheckBox.Checked;   // >> Task #13955 Pax2Sim -BHS trace loading issue[m
+[32m+[m[32m                param.bhsGenerateGroupIST = generateGroupISTcheckBox.Checked;   // >> Task #14280 Bag Trace Loading time too long[m
+[32m+[m[32m                param.bhsGenerateMUPSegregation = generateMUPSegregationCheckBox.Checked;   // >> Task #14280 Bag Trace Loading time too long[m
+[32m+[m[41m                [m
+                 if (tc_General.TabPages.Contains(tp_resultsFilters))[m
+                 {[m
+                     param.analysisResultsFilters.Clear();[m
+[1mdiff --git a/Backup/Properties/AssemblyInfo.cs b/Backup/Properties/AssemblyInfo.cs[m
+[1mindex 4ad1d58..d3e1a9a 100644[m
+[1m--- a/Backup/Properties/AssemblyInfo.cs[m
+[1m+++ b/Backup/Properties/AssemblyInfo.cs[m
+[36m@@ -16,7 +16,7 @@[m [musing System.Resources;[m
+ [m
+ [assembly: AssemblyProduct("PAX2SIM 2015")][m
+ [m
+[31m-[assembly: AssemblyCopyright("Copyright Â©  2006-2017")][m
+[32m+[m[32m[assembly: AssemblyCopyright("Copyright Â©  2006-2019")][m
+ [m
+ [assembly: AssemblyTrademark("Hub Performance")][m
+ [assembly: AssemblyCulture("")][m
+[36m@@ -37,8 +37,8 @@[m [musing System.Resources;[m
+ //      RÃ©vision[m
+ //[m
+ [m
+[31m-[assembly: AssemblyVersion("6.243.156.76")][m
+[31m-[assembly: AssemblyFileVersion("6.243.156.76")][m
+[32m+[m[32m[assembly: AssemblyVersion("6.244.156.76")][m
+[32m+[m[32m[assembly: AssemblyFileVersion("6.244.156.76")][m
+ [m
+ [m
+ [assembly: NeutralResourcesLanguageAttribute("en")][m
+[1mdiff --git a/OverallTools.cs b/OverallTools.cs[m
+[1mindex 4cebe82..aceaafc 100644[m
+[1m--- a/OverallTools.cs[m
+[1m+++ b/OverallTools.cs[m
+[36m@@ -12643,11 +12643,15 @@[m [mnamespace SIMCORE_TOOL[m
+                     {[m
+                         ListeErreurs.Add("Warn00408 : Line ignored \"" + iIdentifiantVol + "\" doesn't match the range");[m
+                         continue;[m
+[31m-                    }[m
+[32m+[m[32m                    }[m[41m [m
+                     String FlightCateg = ligne[iIndexFC].ToString();[m
+                     String sAirlineCode = ligne[iIndexAirline].ToString();[m
+ [m
+[32m+[m[32m                    //sarfraz[m
+                     Dictionary<String, String> dssOCT_CI = etOCTCheckIn.GetInformationsColumns(0, "D_" + iIdentifiantVol, sAirlineCode, FlightCateg);[m
+[32m+[m[32m                    // << Task#A2XQ-T12 - Added[m[41m [m
+[32m+[m[32m                    Dictionary<String, String> dssOCT_CI_FB = etOCTCheckIn.GetInformationsColumns(1, "D_" + iIdentifiantVol, sAirlineCode, FlightCateg);[m
+[32m+[m[32m                    // >> Task#A2XQ-T12 - Added[m[41m [m
+                     if (dssOCT_CI == null)[m
+                         continue;[m
+ [m
+[36m@@ -12663,13 +12667,32 @@[m [mnamespace SIMCORE_TOOL[m
+                     {[m
+                         continue;[m
+                     }[m
+[32m+[m[32m                    // << Task#A2XQ-T12 - Added[m[41m [m
+[32m+[m[32m                    String sOpening_FB = dssOCT_CI_FB[GlobalNames.sOCT_CI_Line_Opening];[m
+[32m+[m[32m                    String sClosing_FB = dssOCT_CI_FB[GlobalNames.sOCT_CI_Line_Closing];[m
+[32m+[m[32m                    Double dOuvertureCI_FB;[m
+[32m+[m[32m                    Double dFermetureCI_FB;[m
+[32m+[m[32m                    if (!Double.TryParse(sOpening_FB, out dOuvertureCI_FB))[m
+[32m+[m[32m                    {[m
+[32m+[m[32m                        continue;[m
+[32m+[m[32m                    }[m
+[32m+[m[32m                    if (!Double.TryParse(sClosing_FB, out dFermetureCI_FB))[m
+[32m+[m[32m                    {[m
+[32m+[m[32m                        continue;[m
+[32m+[m[32m                    }[m
+[32m+[m[32m                    // >> Task#A2XQ-T12 - Added[m[41m [m
+                     int iIndexColumnEco;[m
+[32m+[m[32m                    int iIndexColumnFB;[m
+                     //int iIndexColumnFirst;[m
+[32m+[m[32m                    //Sarfraz[m
+                     DataTable dtShowUpEco = etShowUpProfile.GetInformationsColumns(0, "D_" + iIdentifiantVol, sAirlineCode, FlightCateg, out iIndexColumnEco);[m
+[31m-                    //DataTable dtShowUpFirst = etShowUpProfile.GetInformationsColumns(1, iIdentifiantVol, sAirlineCode, FlightCateg, out iIndexColumnFirst);[m
+[32m+[m[32m                    // << Task#A2XQ-T12 - Added[m[41m [m
+[32m+[m[32m                    DataTable dtShowUpFB = etShowUpProfile.GetInformationsColumns(1, "D_" + iIdentifiantVol, sAirlineCode, FlightCateg, out iIndexColumnFB);[m
+[32m+[m[32m                    // >> Task#A2XQ-T12 - Added[m[41m [m
+ [m
+[31m-                    if (/*(iIndexColumnFirst == -1) ||*/ (iIndexColumnEco == -1))[m
+[31m-                    //if (!htShowUp.ContainsKey(FlightCateg))[m
+[32m+[m[32m                    // << Task#A2XQ-T12 - Added - (|| (iIndexColumnFB == -1))[m
+[32m+[m[32m                    if ((iIndexColumnEco == -1) || (iIndexColumnFB == -1))[m
+[32m+[m[32m                    // >> Task#A2XQ-T12 - Added[m[41m [m
+                     {[m
+                         ListeErreurs.Add("Err00410 : Flight category does not exist in the Show up table. Please check your tables for mistakes.");[m
+                         continue;[m
+[36m@@ -12691,16 +12714,25 @@[m [mnamespace SIMCORE_TOOL[m
+ [m
+                     }[m
+                     /*</Stephane>*/[m
+[31m-                    int iIndexFirst, iIndexLast;[m
+[32m+[m[32m                    int iIndexFirst, iIndexLast, iIndexFirst_FB, iIndexLast_FB;[m
+                     GetFirstAndLastValuesRow(dtShowUpEco, iIndexColumnEco, out iIndexFirst, out iIndexLast);[m
+[31m-                    if (iIndexFirst == -1)[m
+[32m+[m[32m                    GetFirstAndLastValuesRow(dtShowUpFB, iIndexColumnFB, out iIndexFirst_FB, out iIndexLast_FB);[m
+[32m+[m[32m                    if ((iIndexFirst == -1) || (iIndexFirst_FB == -1))[m
+                         continue;[m
+                     Double dFirstPassengerTime = (int)dtShowUpEco.Rows[iIndexLast][1];[m
+                     Double dLastPassengerTime = (int)dtShowUpEco.Rows[iIndexFirst][0];[m
+ [m
+                     DateTime heureOuvertureCI = dateDepart.AddMinutes(-dOuvertureCI);[m
+                     DateTime heureFermetureCI = dateDepart.AddMinutes(-dFermetureCI);[m
+[31m-                    if (heureOuvertureCI > dtEnd)[m
+[32m+[m
+[32m+[m[32m                    // << Task#A2XQ-T12 - Added[m
+[32m+[m[32m                    Double dFirstPassengerTime_FB = (int)dtShowUpEco.Rows[iIndexLast_FB][1];[m
+[32m+[m[32m                    Double dLastPassengerTime_FB = (int)dtShowUpEco.Rows[iIndexFirst_FB][0];[m
+[32m+[m[32m                    DateTime heureOuvertureCI_FB = dateDepart.AddMinutes(-dOuvertureCI_FB);[m
+[32m+[m[32m                    DateTime heureFermetureCI_FB = dateDepart.AddMinutes(-dFermetureCI_FB);[m
+[32m+[m[32m                    // >> Task#A2XQ-T12 - Added[m
+[32m+[m
+[32m+[m[32m                    if ((heureOuvertureCI > dtEnd) || (heureOuvertureCI_FB > dtEnd))[m
+                     {[m
+                         ListeErreurs.Add("Warn00411 : Line ignored \"" + iIdentifiantVol + "\" (in FPD or FPA) doesn't match the scenario time range");[m
+                         continue;[m
+[36m@@ -12736,7 +12768,9 @@[m [mnamespace SIMCORE_TOOL[m
+                     Dictionary<String, String> dssLoadFactors = etLoadFactors.GetInformationsColumns(0, "D_" + iIdentifiantVol, sAirlineCode, FlightCateg);[m
+ [m
+                     String sOriginating = dssLoadFactors[GlobalNames.sLFD_Line_Originating]; //DataFunctions.getValue(dtLoadFactors, GlobalNames.sLFD_Line_Originating, 0, dtLoadFactors.Columns.IndexOf(FlightCateg));[m
+[31m-                    if (sOriginating == null)[m
+[32m+[m[32m                    String sOriginatingFB = dssLoadFactors[GlobalNames.sLFD_A_Line_C];[m
+[32m+[m[32m                    String sOriginatingEcho = dssLoadFactors[GlobalNames.sLFD_A_Line_Y];[m
+[32m+[m[32m                    if ((sOriginating == null) || (sOriginatingFB == null) || (sOriginatingEcho == null))[m
+                     {[m
+                         ListeErreurs.Add("Err00420 : The load factor table have problems.");[m
+                         return null;[m
+[36m@@ -12747,6 +12781,18 @@[m [mnamespace SIMCORE_TOOL[m
+                         ListeErreurs.Add("Err00421 : The load factor value  for the originating passengers is not valid.");[m
+                         return null;[m
+                     }[m
+[32m+[m[32m                    Double dOriginatingFBPercent;[m
+[32m+[m[32m                    if (!Double.TryParse(sOriginatingFB, out dOriginatingFBPercent))[m
+[32m+[m[32m                    {[m
+[32m+[m[32m                        ListeErreurs.Add("Err00421 : The load factor value  for the F&B class originating passengers is not valid.");[m
+[32m+[m[32m                        return null;[m
+[32m+[m[32m                    }[m
+[32m+[m[32m                    Double dOriginatingEchoPercent;[m
+[32m+[m[32m                    if (!Double.TryParse(sOriginatingEcho, out dOriginatingEchoPercent))[m
+[32m+[m[32m                    {[m
+[32m+[m[32m                        ListeErreurs.Add("Err00421 : The load factor value  for the Echo originating passengers is not valid.");[m
+[32m+[m[32m                        return null;[m
+[32m+[m[32m                    }[m
+                     // >> Task #17690 PAX2SIM - Flight Plan Parameters table[m
+                     double dTransferPassengers = -1;[m
+                     double dOriginatingPassengers = -1;[m
+[36m@@ -12784,12 +12830,17 @@[m [mnamespace SIMCORE_TOOL[m
+                     //Calcul de la courbe de présentation des passagers.[m
+                     //Il faut dans un premier temps limité l'interval à calculer.[m
+                     //Double dOpening = (int)dtShowUpEco.Rows[((int[])htShowUp[FlightCateg])[1]][1];[m
+[31m-                    int iHeureDebut;[m
+[32m+[m[32m                    int iHeureDebut, iHeureDebut_FB;[m
+                     if (dFirstPassengerTime < dOuvertureCI)[m
+                         iHeureDebut = DataFunctions.heureDebut(dtCIFlowSmoothed, dateDepart.AddMinutes(-dFirstPassengerTime));[m
+                     else[m
+                         iHeureDebut = DataFunctions.heureDebut(dtCIFlowSmoothed, heureOuvertureCI);[m
+[32m+[m[32m                    if (dFirstPassengerTime_FB < dOuvertureCI_FB)[m
+[32m+[m[32m                        iHeureDebut_FB = DataFunctions.heureDebut(dtCIFlowSmoothed, dateDepart.AddMinutes(-dFirstPassengerTime_FB));[m
+[32m+[m[32m                    else[m
+[32m+[m[32m                        iHeureDebut_FB = DataFunctions.heureDebut(dtCIFlowSmoothed, heureOuvertureCI_FB);[m
+                     Double dOpening = dFirstPassengerTime;[m
+[32m+[m[32m                    Double dOpening_FB = dFirstPassengerTime_FB;[m
+                     if (iHeureDebut == -1)[m
+                     {[m
+                         if ((((DateTime)dtCIFlowSmoothed.Rows[0][0]) > heureOuvertureCI) && (((DateTime)dtCIFlowSmoothed.Rows[0][0]) < heureFermetureCI))[m
+[36m@@ -12803,6 +12854,19 @@[m [mnamespace SIMCORE_TOOL[m
+                             continue;[m
+                         }[m
+                     }[m
+[32m+[m[32m                    if (iHeureDebut_FB == -1)[m
+[32m+[m[32m                    {[m
+[32m+[m[32m                        if ((((DateTime)dtCIFlowSmoothed.Rows[0][0]) > heureOuvertureCI_FB) && (((DateTime)dtCIFlowSmoothed.Rows[0][0]) < heureFermetureCI_FB))[m
+[32m+[m[32m                        {[m
+[32m+[m[32m                            dOpening_FB = dOpening;[m
+[32m+[m[32m                            iHeureDebut_FB = 0;[m
+[32m+[m[32m                        }[m
+[32m+[m[32m                        if (iHeureDebut_FB == -1)[m
+[32m+[m[32m                        {[m
+[32m+[m[32m                            ListeErreurs.Add("Warn00422 : Departing flight \"" + iIdentifiantVol.ToString() + "\" ignored. The STD doesn't match the range.");[m
+[32m+[m[32m                            continue;[m
+[32m+[m[32m                        }[m
+[32m+[m[32m                    }[m
+                     if (iNbTerminal > 0)[m
+                     {[m
+                         int iTerminalParking;[m
+[36m@@ -12824,6 +12888,7 @@[m [mnamespace SIMCORE_TOOL[m
+                     }[m
+ [m
+                     DateTime heureAnalisee = (DateTime)dtCIFlowSmoothed.Rows[iHeureDebut][0];[m
+[32m+[m[32m                    DateTime heureAnaliseeFB = (DateTime)dtCIFlowSmoothed.Rows[iHeureDebut_FB][0];[m
+                     Double dPercent;[m
+                     Double dTotalPax = 0;[m
+                     int iColumn, iColumnTrolley;[m
+[36m@@ -12896,6 +12961,7 @@[m [mnamespace SIMCORE_TOOL[m
+                     }[m
+                     // >> Task #9536 Pax2Sim - table to specify direct the nb of different types of pax(orig, transf...)[m
+ [m
+[32m+[m[32m                    // << PAX Calculation for only Echo Class[m
+                     while ((heureAnalisee < heureFermetureCI) && (iHeureDebut < dtCIFlowSmoothed.Rows.Count))[m
+                     {[m
+                         heureAnalisee = heureAnalisee.AddMinutes(samplingStep);[m
+[36m@@ -12908,7 +12974,8 @@[m [mnamespace SIMCORE_TOOL[m
+                         dPercent = getDistribution((int)dOpening, (int)dClosing, dtShowUpEco/*dtShowUpProfile*/, iIndexColumnEco);[m
+                         if (dPercent > 0)[m
+                         {[m
+[31m-                            Double PAX = dPercent * dOriginatingPassengers;[m
+[32m+[m[32m                            //Double PAX = dPercent * dOriginatingPassengers;[m
+[32m+[m[32m                            Double PAX = dPercent * dOriginatingPassengers * dOriginatingEchoPercent / 100;[m
+                             dTotalPax += PAX;[m
+ [m
+                             // << Task #9536 Pax2Sim - table to specify direct the nb of different types of pax(orig, transf...)[m
+[36m@@ -12951,6 +13018,64 @@[m [mnamespace SIMCORE_TOOL[m
+                         iHeureDebut++;[m
+                         dOpening = dClosing;[m
+                     }[m
+[32m+[m[32m                    // >> PAX Calculation for only Echo Class[m
+[32m+[m
+[32m+[m[32m                    // << PAX Calculation for only First & Bussiness Class[m
+[32m+[m[32m                    iHeureDebut = iHeureDebut_FB;[m
+[32m+[m[32m                    dOpening = dOpening_FB;[m
+[32m+[m[32m                    bool isAllFirstClassPax = dOriginatingFBPercent == 100 ? true : false;[m
+[32m+[m[32m                    while ((heureAnaliseeFB < heureFermetureCI_FB) && (iHeureDebut < dtCIFlowSmoothed.Rows.Count))[m
+[32m+[m[32m                    {[m
+[32m+[m[32m                        heureAnaliseeFB = heureAnaliseeFB.AddMinutes(samplingStep);[m
+[32m+[m[32m                        if (heureAnaliseeFB > heureFermetureCI_FB)[m
+[32m+[m[32m                        {[m
+[32m+[m[32m                            heureAnaliseeFB = heureFermetureCI_FB;[m
+[32m+[m[32m                        }[m
+[32m+[m[32m                        Double dClosing = DataFunctions.MinuteDifference(heureAnaliseeFB, dateDepart);[m
+[32m+[m
+[32m+[m[32m                        dPercent = getDistribution((int)dOpening, (int)dClosing, dtShowUpFB, iIndexColumnFB);[m
+[32m+[m[32m                        if (dPercent > 0)[m
+[32m+[m[32m                        {[m
+[32m+[m[32m                            Double PAX = dPercent * dOriginatingPassengers * dOriginatingFBPercent / 100;[m
+[32m+[m[32m                            dTotalPax += PAX;[m
+[32m+[m[32m                            if (bUseDefinedNbBags)[m
+[32m+[m[32m                            {[m
+[32m+[m[32m                                Double definedMeanBag = definedOriginatingNbBags / dOriginatingPassengers;[m
+[32m+[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][1] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][1] + PAX;[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][2] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][2] + PAX;[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][3] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][3] + PAX * (isAllFirstClassPax ? definedMeanBag : 1);[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][4] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][4] + PAX * (isAllFirstClassPax ? definedMeanBag : 1);[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][5] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][5] + PAX * (isAllFirstClassPax ? dMeanVisitors : 1);[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][6] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][6] + PAX * (isAllFirstClassPax ? dMeanVisitors : 1);[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][7] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][7] + PAX * (isAllFirstClassPax ? dMeanTrolley : 1);[m
+[32m+[m[32m                                dtCIFlowSmoothed.Rows[iHeureDebut][8] = (Double)dtCIFlowSmoothed.Rows[iHeureDebut][8] + PAX * (isAllFirstClassPax ? dMeanTrolley : 1);[m
+[32m+[m[32m       

@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_Level2_Mean.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txt_Level3_Mean.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt_Level5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 114</value>
+  </data>
+  <data name="txt_Level3_Mean.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_Level5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="txt_MES_tran.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="lbl_Level4.Text" xml:space="preserve">
+    <value>HBS3 to HBS4 (%)</value>
+  </data>
+  <data name="txt_Level4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Level4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="txt_IntLnk_Orig.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gb_HBS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 147</value>
+  </data>
+  <data name="lbl_Transfer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl_FC.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="message7" xml:space="preserve">
+    <value>HBS3 auto. to HBS3 manu.(%) </value>
+  </data>
+  <data name="&gt;&gt;gb_HBS.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level2.Name" xml:space="preserve">
+    <value>lbl_Level2</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_Level5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_Level3_Mean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_Interlink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 297</value>
+  </data>
+  <data name="txt_Level4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 88</value>
+  </data>
+  <data name="txt_Level3_Mean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 62</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Originating.Parent" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="lbl_Level2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gb_MES.Text" xml:space="preserve">
+    <value>Manuel Encoding System (MES)</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5_Mean.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;txt_MES_tran.Name" xml:space="preserve">
+    <value>txt_MES_tran</value>
+  </data>
+  <data name="txt_MES_Ori.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_Orig_IntLnk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Level2.Text" xml:space="preserve">
+    <value>HBS1 to HBS2 (%)</value>
+  </data>
+  <data name="txt_Level5_Mean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_FC.Name" xml:space="preserve">
+    <value>cb_FC</value>
+  </data>
+  <data name="&gt;&gt;tt_Tooltips.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_HBS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transferring.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_Level4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Transf.Parent" xml:space="preserve">
+    <value>gb_Interlink</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5_Mean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="message4" xml:space="preserve">
+    <value>The value must be a valid number.</value>
+  </data>
+  <data name="txt_Level3_Mean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message3" xml:space="preserve">
+    <value>The data you are trying to insert are not valid </value>
+  </data>
+  <data name="lbl_Transfer.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_Level5_Mean.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BT_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Orig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_DMRC.Parent" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Flow split assistant</value>
+  </data>
+  <data name="txt_DMRC.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transferring.Parent" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="lbl_Originating.Text" xml:space="preserve">
+    <value>Originating bags (%)</value>
+  </data>
+  <data name="lbl_Level3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level3.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;lbl_Orig_IntLnk.Parent" xml:space="preserve">
+    <value>gb_Interlink</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BT_OK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_Level5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Transf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="message5" xml:space="preserve">
+    <value>The value must be between 0 and 100.</value>
+  </data>
+  <data name="gb_MES.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_IntLnk_Transf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="lbl_Level2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="&gt;&gt;gb_HBS.Name" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;cb_FC.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BT_CANCEL.Name" xml:space="preserve">
+    <value>BT_CANCEL</value>
+  </data>
+  <data name="txt_IntLnk_Transf.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAACMuAAAjLgAAAAAAAAAA
+        AAD////////////////////////////////////////////////////8/PywquumofCuq/GrqfGrq/Gr
+        rPKrrfOqrvOqsPSpsPSpsfSosPSmrvWzufrp6f/////////////////T0tKTkpGbmpmbmpmUkpLe3d3/
+        ///9/f309PPr6url5OPi4eDZ2NGBd7MvI7xicNZfcNNSZdFJX9BAWdA3Us8vTM8oRs8gP88aO9AZPNMb
+        QdUxWNyUqu7////////////Avb1fXVxraWhraWhhX17Lysn08/Pf3dza2NfZ19ba2Nfb2dje3Nvj4tOb
+        lLlPUcdwj99tjttcfNhQcdZEZdM5WdIuTdElQdAiQNIiRNQiRtYaRNgGOdiMpe3////////DwcFpZ2Z0
+        cnF0cnFta2q5t7fi4N/b2djc2tnc2tnc2tnc2tnc2tne3Nzk5NWlnrpFR8JPbdZScdRDYdE6VtAwTM8m
+        P84jPM8jQtIjRdQjR9YiS9kbStsfUN70+v/////DwcFpZ2Z0cnF0cnFta2q4trXk4uHc2tnc2tnc2tnc
+        2tnc2tnc2djb2djc2trj4tayrbxGSb43U9A9Ws8yS80oPswkOc0kPc8jQtIjRdQjR9YiS9khTtwNQ9zI
+        2v/////DwcFpZ2Z0cnF0cnFta2q4trXk4uHc2tnb2dja19ba2Nfc2tne3Nvg3t3h397j4eHp6N7FwcVO
+        Ur4kOssrPssmNcslOc0kPs8jQtIjRdQjR9YiS9khTtwOQ9y70P/////DwcFpZ2Z0cnF0cnFta2q4trXk
+        4uHa2Nfe3Nzq6enz8/P5+fn8/Pz+/v7///////////////7j4d1cYcIWI8glM8slOs0kPs8jQtIjRdQj
+        R9YiS9khTtwORNy60P/////DwcFpZ2Z0cnF0cnFta2q5t7bh397m5eT8+/v/////////////////////
+        ///////////////////v7uRrccQWJskiN84kPs8jQtIjRdQjR9YiS9khTtwOQ9y4zf/////DwcFpZ2Z0
+        cnF0cnFta2q2tLPr6un////////////////////////////////////////////////////39ul9hMcX
+        LcsfOtAjQtIjRdQjR9YiS9khTtwNQ9y1zP/////DwcFpZ2Z0cnF0cnFsamm3tbT+/f3/////////////
+        ///////////////////////////////////////////9++2Pl8kcNswdPdQjRdQjR9YiS9khTtwNQ9yz
+        yv/////DwcFpZ2Z0cnF0cnFraWi/vbz/////////////////////////////////////////////////
+        //////////////////KfpsohP84eQdojR9YiS9khTtwNQ9ywyP/////DwcFpZ2Z0cnF0cnFpZ2bJyMf/
+        //////////////////////////////////////////////////////////////////////NqboUhQMYe
+        Rd8iS9khTtwNQ9ytxv/////DwcFpZ2Z0cnF0cnFraWjDwsHz8/Lz8vLz8vLz8vLz8vLz8vLz8vLz8vLz
+        8vLz8vLz8vLz8vLz8vLz8vLz8vLz8vLz8/Ly8vOHg3dcXWkrScMbSOQhTt0NQ9yqw//////DwcFpZ2Z0
+        cnF0cnFzcXB4dnV6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6eHd6
+        eHd6eHd1c3N3c2loZ2k2UbMaSuQBN92jvv/////DwcFpZ2Z0cnF0cnF0cnFycG9wbm1wbm1wbm1wbm1w
+        bm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1wbm1xbm1zcXB0cnJ2c21xbWRZZY9Ved+7
+        z/////+/vb1dW1ppZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2Zp
+        Z2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2ZpZ2Zsaml1cGWCemfm5+j2+f/////p6enHxsbLysrLysrLysrLysrL
+        ysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLysrLy8vR0M3L
+        x7t/iKo2VbsXStujvv//////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////y8exyh9keSeAaSuQIP9ujvv/////z8/Ph4ODj
+        4+Lj4+Lh4eD29fX/////////////////////////////////////////////////////////////////
+        //////7b2tpKYssQONcgSdohTtwNQ9yowv/////CwMBlY2Jwbm1wbm1mZGPOzc3/////////////////
+        //////////////////////////////////////////////////zR0tY/V8oUONUjR9YiS9khTtwNQ9ur
+        xP/////DwcFnZWRycG9ycG9oZmXPzs7/////////////////////////////////////////////////
+        //////////////rIydM3TcgVNtMkRNQjR9YiS9khTtwNQ9yuxv/////DwcFpZ2Z0cnF0cnFqaGfPzs7/
+        //////////////////////////////////////////////////////////m+wNEwQ8cXM9AkQtIjRNQj
+        R9YiS9khTtwNQ9yxyf/////DwcFpZ2Z0cnF0cnFqaGfPzs7/////////////////////////////////
+        //////////////////////e0tc4rOcYaMM4lP88jQtIjRNQjR9YiS9khTtwNQ9y0y//////DwcFpZ2Z0
+        cnF0cnFqaGfPzs7///////////////////////////////////////////////////WoqcslLsQdLMwm
+        O80kPs8jQtIjRNQjR9YiS9khTtwNRNy3zf/////DwcFpZ2Z0cnF0cnFqaGfPzs7/////////////////
+        //////////////////////////////Kcm8clL8MgLsknNMslOs0kPs8jQtIjRNQjR9YiS9khTtwORNy6
+        z//////DwcFpZ2Z0cnF0cnFqaGfPzs7////////////////////////////////////////+/u+QjMQp
+        NcQyTM4uQ8smNsskOM0kPs8jQtIjRNQjR9YiS9khTtwNQ9y80f/////DwcFpZ2Z0cnF0cnFqaGfPzs7/
+        ///////////////////////////////////6+uyDfcAyPsdHZtM/XNA1T84qQs0kOc0kPc8jQtIjRNQj
+        R9YiS9khTtwORNzS4v/////DwcFpZ2Z0cnF0cnFqaGfPzs7////////////////////////////////1
+        9el3b75ASspff9hTctRHZdI8WtEyT9AoQs8jPc8jQdIjRNQjR9YjS9kVRdouXOD8//////+/vLxdWllo
+        ZmVoZmVeW1rMysr////////////////////////////r6+Vxab1WYdF8nuFrittbfdhPcdZDZdQ3WdIt
+        TdEiQNAdPNEdP9QcQdUPPNYWRdq3xvT////////m5eXAv7/FxMTFxMTBwL/r6+v/////////////////
+        ///////u7+lzZ7w3K8FkatFZYM5TXc5OW85JWc9DVs8+VNA6UtE1T9ExTdIvTtU1VtlffePM1vb/////
+        ///////////////////////////////////////////////////////////59v/9+//59f/69//7+P/8
+        +v/9+//+/f///v//////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="lbl_Level3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_FC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_MES_Ori.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="gb_HBS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 62</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level4.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;gb_MES.Name" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4_Mean.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Originating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Level5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_FC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_FC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Level2_Mean.Name" xml:space="preserve">
+    <value>txt_Level2_Mean</value>
+  </data>
+  <data name="message8" xml:space="preserve">
+    <value>HBS3 manu. to HBS4 (%) </value>
+  </data>
+  <data name="lbl_Orig_IntLnk.Text" xml:space="preserve">
+    <value>Originating bags (%)</value>
+  </data>
+  <data name="gb_MES.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5.Name" xml:space="preserve">
+    <value>txt_Level5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transfer.Parent" xml:space="preserve">
+    <value>gb_Interlink</value>
+  </data>
+  <data name="txt_IntLnk_Orig.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_Transfer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Level5.Text" xml:space="preserve">
+    <value>HBS4 to HBS5 (%)</value>
+  </data>
+  <data name="&gt;&gt;gb_Interlink.Name" xml:space="preserve">
+    <value>gb_Interlink</value>
+  </data>
+  <data name="&gt;&gt;BT_OK.Name" xml:space="preserve">
+    <value>BT_OK</value>
+  </data>
+  <data name="txt_Level5_Mean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 114</value>
+  </data>
+  <data name="&gt;&gt;lbl_Originating.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_Level5_Mean.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbl_Originating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 22</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="gb_HBS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_Level4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Level2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transfer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_FC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Level3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_Level2_Mean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Level2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Level3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_DMRC.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gb_MES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 76</value>
+  </data>
+  <data name="lbl_Level3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BT_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cb_FC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 26</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;gb_MES.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Transferring.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 15</value>
+  </data>
+  <data name="lbl_Level3.Text" xml:space="preserve">
+    <value>HBS2 to HBS3 (%)</value>
+  </data>
+  <data name="txt_MES_tran.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_Level5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BHS_Flow_Split_Assistant</value>
+  </data>
+  <data name="lbl_DMRC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl_FC.Name" xml:space="preserve">
+    <value>lbl_FC</value>
+  </data>
+  <data name="&gt;&gt;cb_FC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_HBS.Text" xml:space="preserve">
+    <value>HBS distribution</value>
+  </data>
+  <data name="txt_MES_tran.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_FC.Text" xml:space="preserve">
+    <value>Flight category :</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transfer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_MES_tran.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gb_Interlink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_MES_tran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 45</value>
+  </data>
+  <data name="&gt;&gt;lbl_DMRC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Transfer.Text" xml:space="preserve">
+    <value>Transfer bags (%)</value>
+  </data>
+  <data name="BT_CANCEL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="txt_Level3_Mean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="txt_Level3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gb_MES.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BT_CANCEL.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_Level2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_MES_Ori.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_FC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="&gt;&gt;gb_HBS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Transf.Name" xml:space="preserve">
+    <value>txt_IntLnk_Transf</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3_Mean.Name" xml:space="preserve">
+    <value>txt_Level3_Mean</value>
+  </data>
+  <data name="txt_Level4_Mean.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="lbl_Level5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BT_OK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5_Mean.Name" xml:space="preserve">
+    <value>txt_Level5_Mean</value>
+  </data>
+  <data name="txt_Level2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;tt_Tooltips.Name" xml:space="preserve">
+    <value>tt_Tooltips</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Orig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4.Name" xml:space="preserve">
+    <value>txt_Level4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Orig_IntLnk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Originating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transferring.Name" xml:space="preserve">
+    <value>lbl_Transferring</value>
+  </data>
+  <data name="txt_MES_Ori.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 19</value>
+  </data>
+  <data name="lbl_DMRC.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Orig.Parent" xml:space="preserve">
+    <value>gb_Interlink</value>
+  </data>
+  <data name="lbl_Transfer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_Orig_IntLnk.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3_Mean.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="txt_Level2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_Level2_Mean.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3.Name" xml:space="preserve">
+    <value>txt_Level3</value>
+  </data>
+  <data name="lbl_FC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl_Orig_IntLnk.Name" xml:space="preserve">
+    <value>lbl_Orig_IntLnk</value>
+  </data>
+  <data name="gb_Interlink.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cb_FC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Level4_Mean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="txt_Level4_Mean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DMRC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 72</value>
+  </data>
+  <data name="lbl_Transferring.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 48</value>
+  </data>
+  <data name="lbl_Level5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 117</value>
+  </data>
+  <data name="txt_Level5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_FC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Orig_IntLnk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 48</value>
+  </data>
+  <data name="&gt;&gt;BT_CANCEL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_FC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 29</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4_Mean.Name" xml:space="preserve">
+    <value>txt_Level4_Mean</value>
+  </data>
+  <data name="&gt;&gt;lbl_DMRC.Name" xml:space="preserve">
+    <value>lbl_DMRC</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lbl_Level2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="message6" xml:space="preserve">
+    <value>HBS2 to HBS3 auto.(%) </value>
+  </data>
+  <data name="&gt;&gt;txt_MES_tran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_Level4_Mean.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4_Mean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Transferring.Text" xml:space="preserve">
+    <value>Transfer bags (%)</value>
+  </data>
+  <data name="&gt;&gt;txt_DMRC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Transferring.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BT_CANCEL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_Originating.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Level2_Mean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Level3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MES_tran.Parent" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="gb_MES.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txt_IntLnk_Orig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 45</value>
+  </data>
+  <data name="&gt;&gt;lbl_FC.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_MES_Ori.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_Level4_Mean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 88</value>
+  </data>
+  <data name="lbl_Transferring.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="lbl_Level3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 65</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level3.Name" xml:space="preserve">
+    <value>lbl_Level3</value>
+  </data>
+  <data name="txt_Level2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_DMRC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_Interlink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 76</value>
+  </data>
+  <data name="message9" xml:space="preserve">
+    <value>Modify </value>
+  </data>
+  <data name="lbl_Transferring.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_DMRC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Originating.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MES_Ori.Parent" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="gb_Interlink.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DMRC.Text" xml:space="preserve">
+    <value>DMRC bags (%)</value>
+  </data>
+  <data name="cb_FC.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3_Mean.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5_Mean.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_IntLnk_Orig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_Level2.Name" xml:space="preserve">
+    <value>txt_Level2</value>
+  </data>
+  <data name="&gt;&gt;lbl_DMRC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_Interlink.Text" xml:space="preserve">
+    <value>Interlink bags (Optional)</value>
+  </data>
+  <data name="txt_Level2_Mean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_Level2.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="lbl_Level4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gb_Interlink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_DMRC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_Level2_Mean.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;txt_MES_Ori.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Originating.Name" xml:space="preserve">
+    <value>lbl_Originating</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level5.Name" xml:space="preserve">
+    <value>lbl_Level5</value>
+  </data>
+  <data name="txt_IntLnk_Transf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 19</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transferring.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Transfer.Name" xml:space="preserve">
+    <value>lbl_Transfer</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Global %</value>
+  </data>
+  <data name="txt_DMRC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 69</value>
+  </data>
+  <data name="lbl_Orig_IntLnk.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txt_DMRC.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txt_Level2_Mean.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_DMRC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Orig.Name" xml:space="preserve">
+    <value>txt_IntLnk_Orig</value>
+  </data>
+  <data name="gb_HBS.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txt_Level2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 36</value>
+  </data>
+  <data name="txt_Level5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gb_Interlink.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>509, 439</value>
+  </data>
+  <data name="txt_Level2_Mean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 36</value>
+  </data>
+  <data name="BT_CANCEL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_Level5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level2.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="&gt;&gt;txt_Level4_Mean.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="gb_MES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 215</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="txt_IntLnk_Transf.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BT_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_Level5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BT_CANCEL.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;gb_MES.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BT_CANCEL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_IntLnk_Transf.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_DMRC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="BT_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BT_CANCEL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 400</value>
+  </data>
+  <data name="&gt;&gt;txt_MES_Ori.Name" xml:space="preserve">
+    <value>txt_MES_Ori</value>
+  </data>
+  <data name="lbl_Transfer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="BT_OK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message2" xml:space="preserve">
+    <value>Do you want to save the changes for the flight category ? </value>
+  </data>
+  <data name="message1" xml:space="preserve">
+    <value>Unable to find the selected flight category </value>
+  </data>
+  <data name="lbl_Orig_IntLnk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="txt_Level3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 62</value>
+  </data>
+  <data name="lbl_Level4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_Level5_Mean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_Level3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_DMRC.Parent" xml:space="preserve">
+    <value>gb_MES</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;txt_Level2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Orig_IntLnk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level4.Name" xml:space="preserve">
+    <value>lbl_Level4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BT_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 400</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level5.Parent" xml:space="preserve">
+    <value>gb_HBS</value>
+  </data>
+  <data name="txt_Level4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_DMRC.Name" xml:space="preserve">
+    <value>txt_DMRC</value>
+  </data>
+  <data name="gb_HBS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Originating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="lbl_Level4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 91</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tt_Tooltips.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+</root>

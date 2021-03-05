@@ -1,0 +1,14 @@
+Column Name
+System.String
+Arrival Baggage Loading Rate
+Arrival Baggage Loading Delay
+EBS Input Rates
+EBS Output Rates
+Flight Subcategories
+Number of Passengers
+USA Standard Parameters
+PAX_CI_Group
+PAX_Reclaim_Group
+PAX_Transfer_Group
+PAX_BoardingGate_Group
+ReclaimSync_LastBag

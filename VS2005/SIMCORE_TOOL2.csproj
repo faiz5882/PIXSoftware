@@ -1,0 +1,1308 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93686FA5-7317-41EF-99B9-9BD048B9C057}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIMCORE_TOOL</RootNamespace>
+    <AssemblyName>PAX2SIM</AssemblyName>
+    <ApplicationIcon>HubPerformance.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>B222617D74FCF7A246E7DDA0DDA5A1FE9E656605</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>maCle.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>C:\Documents and Settings\Sebastien Geffroy\Mes documents\PAX2SIM\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>PAX2SIM</ProductName>
+    <PublisherName>SIMCORE</PublisherName>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>2.0.4.9</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>
+    </DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>PAXINOUTUTILISATION;SHOPSUTILISATION;NEWALLOCATIONSECU</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutomaticUpdater, Version=2.6.9.0, Culture=neutral, PublicKeyToken=d2050be9b2e72e40, processorArchitecture=MSIL" />
+    <Reference Include="CheckBoxComboBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CheckBoxComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Chart, Version=7.8.30.15, Culture=neutral, PublicKeyToken=2961c51bb98125d2, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.Chart.WinForm, Version=7.8.30.15, Culture=neutral, PublicKeyToken=c9bd8998e981e4ee, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.GraphicsGL, Version=7.8.30.15, Culture=neutral, PublicKeyToken=2f17c6a71f852d32">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.Presentation, Version=7.8.30.15, Culture=neutral, PublicKeyToken=6656c5d1103e75cc">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.System, Version=7.8.30.15, Culture=neutral, PublicKeyToken=6a987feae5e496fd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PDFjet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=339328475e83c7d3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\PDFjet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutPax2SIM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutPax2SIM.Designer.cs">
+      <DependentUpon>AboutPax2SIM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalysisClasses.cs" />
+    <Compile Include="Assistant\AircraftLinks_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\AircraftLinks_Assistant.Designer.cs">
+      <DependentUpon>AircraftLinks_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Allocation_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Allocation_Assistant.Designer.cs">
+      <DependentUpon>Allocation_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Animated_Queues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Animated_Queues.Designer.cs">
+      <DependentUpon>Animated_Queues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_General_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_General_Assistant.Designer.cs">
+      <DependentUpon>BHS_General_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_CI_Collectors_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_CI_Collectors_Assistant.Designer.cs">
+      <DependentUpon>BHS_CI_Collectors_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_CI_Routing_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_CI_Routing_Assistant.Designer.cs">
+      <DependentUpon>BHS_CI_Routing_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_Arrival_Containers_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_Arrival_Containers_Assistant.Designer.cs">
+      <DependentUpon>BHS_Arrival_Containers_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_Flow_Split_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_Flow_Split_Assistant.Designer.cs">
+      <DependentUpon>BHS_Flow_Split_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_HB3_Routing_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_HB3_Routing_Assistant.Designer.cs">
+      <DependentUpon>BHS_HB3_Routing_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_Process_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_Process_Assistant.Designer.cs">
+      <DependentUpon>BHS_Process_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\BHS_Itinerary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\BHS_Itinerary.Designer.cs">
+      <DependentUpon>BHS_Itinerary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Edit_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Edit_Assistant.Designer.cs">
+      <DependentUpon>Edit_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\FP_AssistantAircraft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\FP_AssistantAircraft.Designer.cs">
+      <DependentUpon>FP_AssistantAircraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Rooting\AllocationAssistantManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Rooting\AllocationAssistantManager.Designer.cs">
+      <DependentUpon>AllocationAssistantManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Rooting\SIM_AllocationElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Rooting\SIM_AllocationElement.Designer.cs">
+      <DependentUpon>SIM_AllocationElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Rooting\SIM_Flight_Parameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Rooting\SIM_Flight_Parameters.Designer.cs">
+      <DependentUpon>SIM_Flight_Parameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Schedule_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Schedule_Assistant.Designer.cs">
+      <DependentUpon>Schedule_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\OCT_Assistant_MakeUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\OCT_Assistant_MakeUp.Designer.cs">
+      <DependentUpon>OCT_Assistant_MakeUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Mean_Flows_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Mean_Flows_Assistant.Designer.cs">
+      <DependentUpon>Mean_Flows_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Oneof_AddFrequency_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Oneof_AddFrequency_Assistant.Designer.cs">
+      <DependentUpon>Oneof_AddFrequency_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Oneof_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Oneof_Assistant.Designer.cs">
+      <DependentUpon>Oneof_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\ParkingAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\ParkingAllocation.Designer.cs">
+      <DependentUpon>ParkingAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Arrow_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Arrow_Assistant.Designer.cs">
+      <DependentUpon>Arrow_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Capacity_SubForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Capacity_SubForm.Designer.cs">
+      <DependentUpon>Capacity_SubForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Nb_Bags_Meeters_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Nb_Bags_Meeters_Assistant.Designer.cs">
+      <DependentUpon>Nb_Bags_Meeters_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\ICT_ShowUp_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\ICT_ShowUp_Assistant.Designer.cs">
+      <DependentUpon>ICT_ShowUp_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\LFD_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\LFD_Assistant.Designer.cs">
+      <DependentUpon>LFD_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\LFA_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\LFA_Assistant.Designer.cs">
+      <DependentUpon>LFA_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\OCT_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\OCT_Assistant.Designer.cs">
+      <DependentUpon>OCT_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Process_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Process_Assistant.Designer.cs">
+      <DependentUpon>Process_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Queue_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Queue_Assistant.Designer.cs">
+      <DependentUpon>Queue_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Ressource_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Ressource_Assistant.Designer.cs">
+      <DependentUpon>Ressource_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Distribution_SubForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Distribution_SubForm.Designer.cs">
+      <DependentUpon>Distribution_SubForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Process_SubForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\SubForms\Process_SubForm.Designer.cs">
+      <DependentUpon>Process_SubForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Transfert_Distri_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Transfert_Distri_Assistant.Designer.cs">
+      <DependentUpon>Transfert_Distri_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Trolley_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Trolley_Assistant.Designer.cs">
+      <DependentUpon>Trolley_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AskMode.cs" />
+    <Compile Include="Classes\GenerateAllocationTool.cs" />
+    <Compile Include="Classes\GestionDonnees.cs" />
+    <Compile Include="Classes\ParamScenario.cs" />
+    <Compile Include="Classes\ReclaimAllocation.cs" />
+    <Compile Include="Classes\Settings.cs" />
+    <Compile Include="Classes\TreeViewTag.cs" />
+    <Compile Include="Classes\VersionManager.cs" />
+    <Compile Include="Classes\VisualisationMode.cs" />
+    <Compile Include="ConvertTables.cs" />
+    <Compile Include="DataGridViewPrinter.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="Errors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Errors.Designer.cs">
+      <DependentUpon>Errors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelReader.cs" />
+    <Compile Include="ExcelWriter.cs" />
+    <Compile Include="FonctionsType.cs" />
+    <Compile Include="GlobalNames.cs" />
+    <Compile Include="GraphicFilter.cs" />
+    <Compile Include="Interface\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs" />
+    <Compile Include="OverallTools.cs">
+    </Compile>
+    <Compile Include="Parking\ParkingAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking\ParkingAnalysis.Designer.cs">
+      <DependentUpon>ParkingAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parking\ParkingCalcs.cs" />
+    <Compile Include="Parking\ParkingContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking\ParkingContent.Designer.cs">
+      <DependentUpon>ParkingContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parking\ParkingContentClass.cs" />
+    <Compile Include="Parking\ParkingScenario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking\ParkingScenario.Designer.cs">
+      <DependentUpon>ParkingScenario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParseHTML\Attribute.cs" />
+    <Compile Include="ParseHTML\AttributeList.cs" />
+    <Compile Include="ParseHTML\Parse.cs" />
+    <Compile Include="ParseHTML\ParseHTML.cs" />
+    <Compile Include="PDFGenerator.cs" />
+    <Compile Include="Prompt\Allocation\SIM_Allocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation.Designer.cs">
+      <DependentUpon>SIM_Allocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_BGate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_BGate.Designer.cs">
+      <DependentUpon>SIM_Allocation_BGate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_MakeUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_MakeUp.Designer.cs">
+      <DependentUpon>SIM_Allocation_MakeUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_Reclaim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_Reclaim.Designer.cs">
+      <DependentUpon>SIM_Allocation_Reclaim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_TransferInfeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_Allocation_TransferInfeed.Designer.cs">
+      <DependentUpon>SIM_Allocation_TransferInfeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_InfeedParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Allocation\SIM_InfeedParameters.Designer.cs">
+      <DependentUpon>SIM_InfeedParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Appearence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Appearence.Designer.cs">
+      <DependentUpon>Appearence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\FPA_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\FPA_Assistant.Designer.cs">
+      <DependentUpon>FPA_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\FPD_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\FPD_Assistant.Designer.cs">
+      <DependentUpon>FPD_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\FP_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\FP_Assistant.Designer.cs">
+      <DependentUpon>FP_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filter.cs" />
+    <Compile Include="GestionDonneesHUB2SIM.cs" />
+    <Compile Include="PAX2SIM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAX2SIM.Designer.cs">
+      <DependentUpon>PAX2SIM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Prompt\CompareChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\CompareChart.designer.cs">
+      <DependentUpon>CompareChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\ExceptionEditorLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\ExceptionEditorLine.Designer.cs">
+      <DependentUpon>ExceptionEditorLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\ParagraphEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\ParagraphEditor.Designer.cs">
+      <DependentUpon>ParagraphEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_Annotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_Annotation.designer.cs">
+      <DependentUpon>SIM_Annotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_doc_versionning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_doc_versionning.designer.cs">
+      <DependentUpon>SIM_doc_versionning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_Htmleditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_Htmleditor.Designer.cs">
+      <DependentUpon>SIM_Htmleditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_Htmleditor_AddTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Reporting\SIM_Htmleditor_AddTable.Designer.cs">
+      <DependentUpon>SIM_Htmleditor_AddTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Reporting\TreeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Reporting\TreeEditor.designer.cs">
+      <DependentUpon>TreeEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\ExceptionEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\ExceptionEditor.Designer.cs">
+      <DependentUpon>ExceptionEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_ColumnPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_ColumnPosition.Designer.cs">
+      <DependentUpon>SIM_ColumnPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_ParametersIhm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_ParametersIhm.Designer.cs">
+      <DependentUpon>SIM_ParametersIhm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Setpoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Setpoint.designer.cs">
+      <DependentUpon>SIM_Setpoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Sodexi\BagFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Sodexi\BagFlow.Designer.cs">
+      <DependentUpon>BagFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Sodexi\Sodexi.cs" />
+    <Compile Include="Prompt\TraceAnalyser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\TraceAnalyser.Designer.cs">
+      <DependentUpon>TraceAnalyser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\IgnoredLigne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\IgnoredLigne.designer.cs">
+      <DependentUpon>IgnoredLigne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\MultipleScenarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\MultipleScenarios.Designer.cs">
+      <DependentUpon>MultipleScenarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Scenarios_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Scenarios_Assistant.Designer.cs">
+      <DependentUpon>SIM_Scenarios_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Add_Edit_Elem_Airport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Add_Edit_Elem_Airport.Designer.cs">
+      <DependentUpon>SIM_Add_Edit_Elem_Airport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_AutomodGraphic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_AutomodGraphic.Designer.cs">
+      <DependentUpon>SIM_AutomodGraphic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Axes_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Axes_Assistant.Designer.cs">
+      <DependentUpon>SIM_Axes_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_ChooseName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_ChooseName.Designer.cs">
+      <DependentUpon>SIM_ChooseName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\ModelName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\ModelName.Designer.cs">
+      <DependentUpon>ModelName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Distribution_Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Distribution_Display.Designer.cs">
+      <DependentUpon>Distribution_Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\ReportGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\ReportGenerator.Designer.cs">
+      <DependentUpon>ReportGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\ScenarioName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\ScenarioName.Designer.cs">
+      <DependentUpon>ScenarioName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Distribution_Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Distribution_Assistant.Designer.cs">
+      <DependentUpon>Distribution_Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_AirSide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_AirSide.Designer.cs">
+      <DependentUpon>SIM_AirSide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\DefineSeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\DefineSeed.Designer.cs">
+      <DependentUpon>DefineSeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\FilterName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\FilterName.Designer.cs">
+      <DependentUpon>FilterName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Assistant_Creation_Filtres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Assistant_Creation_Filtres.designer.cs">
+      <DependentUpon>SIM_Assistant_Creation_Filtres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Chargement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Chargement.Designer.cs">
+      <DependentUpon>SIM_Chargement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Define_Step_Analysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Define_Step_Analysis.Designer.cs">
+      <DependentUpon>SIM_Define_Step_Analysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Graphic_Association.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Graphic_Association.Designer.cs">
+      <DependentUpon>SIM_Graphic_Association.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Import_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Import_Table.Designer.cs">
+      <DependentUpon>SIM_Import_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Open_Partial_Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Open_Partial_Project.Designer.cs">
+      <DependentUpon>SIM_Open_Partial_Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Speed_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Speed_Settings.Designer.cs">
+      <DependentUpon>Speed_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutPax2SIM.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutPax2SIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Allocation_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Allocation_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Oneof_AddFrequency_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Oneof_AddFrequency_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Oneof_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Oneof_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\ParkingAllocation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParkingAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\SubForms\Arrow_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Arrow_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Nb_Bags_Meeters_Assistant.resx">
+      <DependentUpon>Nb_Bags_Meeters_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\ICT_ShowUp_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ICT_ShowUp_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\LFD_Assistant.resx">
+      <DependentUpon>LFD_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\LFA_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LFA_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\OCT_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OCT_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Process_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Process_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Queue_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Queue_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Ressource_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Ressource_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\SubForms\Distribution_SubForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Distribution_SubForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Errors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Appearence.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Appearence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\FPA_Assistant.resx">
+      <DependentUpon>FPA_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\FPD_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FPD_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\FP_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FP_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAX2SIM.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PAX2SIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_ChooseName.resx">
+      <DependentUpon>SIM_ChooseName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\ModelName.resx">
+      <DependentUpon>ModelName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Distribution_Display.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Distribution_Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\ReportGenerator.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\ScenarioName.resx">
+      <DependentUpon>ScenarioName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Distribution_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Distribution_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_AirSide.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_AirSide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\DefineSeed.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineSeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\FilterName.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Assistant_Creation_Filtres.resx">
+      <DependentUpon>SIM_Assistant_Creation_Filtres.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Chargement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Chargement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Define_Step_Analysis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Define_Step_Analysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Graphic_Association.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Graphic_Association.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Open_Partial_Project.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Open_Partial_Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Speed_Settings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Speed_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Assistant_Creation_Graphics_Filters.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Assistant_Creation_Graphics_Filters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Edit_Project_Name.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Edit_Project_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Visu.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Prompt\SIM_Assistant_Creation_Graphics_Filters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Assistant_Creation_Graphics_Filters.Designer.cs">
+      <DependentUpon>SIM_Assistant_Creation_Graphics_Filters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\SIM_Edit_Project_Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Edit_Project_Name.Designer.cs">
+      <DependentUpon>SIM_Edit_Project_Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt\Sim_Analyse_Simulation_Results.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\Sim_Analyse_Simulation_Results.Designer.cs">
+      <DependentUpon>Sim_Analyse_Simulation_Results.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportParameters.cs" />
+    <Compile Include="Prompt\SIM_Audit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompt\SIM_Audit.Designer.cs">
+      <DependentUpon>SIM_Audit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visu.Designer.cs">
+      <DependentUpon>Visu.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\copy.bmp" />
+    <None Include="Images\Bmp.bmp" />
+    <None Include="Images\Table.bmp" />
+    <None Include="Images\Save.bmp" />
+    <None Include="Images\FlecheDroite.bmp" />
+    <None Include="Images\Open.bmp" />
+    <None Include="Images\New.bmp" />
+    <None Include="Images\BackgroundImage.jpg" />
+    <None Include="Images\Aperçu.bmp" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonProjetJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonAirportJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonAirportDataJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonStaticJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonDynamicJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonReportJaune.gif" />
+    <None Include="Images\Elargir.bmp" />
+    <None Include="Images\ElargirEntete.bmp" />
+    <None Include="Images\Retrecir.bmp" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonBHSJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonAirsideJaune.gif" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonChartJaune.gif" />
+    <None Include="Images\Print.bmp" />
+    <None Include="Images\Cut.bmp" />
+    <None Include="Images\Paste.bmp" />
+    <None Include="Images\Delete.bmp" />
+    <None Include="Images\Add.bmp" />
+    <None Include="Images\edit.gif" />
+    <None Include="Images\Design.bmp" />
+    <None Include="Images\NewImage\Bouton 50x50\Jaune\PAX2SIM_BoutonAirportDataJaune_2.GIF" />
+    <None Include="Images\SendMail.bmp" />
+    <None Include="Images\extern.bmp" />
+    <None Include="Images\Intern.bmp" />
+    <None Include="Images\CreateLink.bmp" />
+    <None Include="Images\CreateLink2.bmp" />
+    <None Include="Images\CreateLink3.gif" />
+    <Content Include="HubPerformance.ico" />
+    <Content Include="logoSimcore32_32.ico" />
+    <EmbeddedResource Include="AboutPax2SIM.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutPax2SIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\AircraftLinks_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AircraftLinks_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Allocation_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Allocation_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Animated_Queues.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Animated_Queues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Animated_Queues.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Animated_Queues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Arrival_Containers_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_Arrival_Containers_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_CI_Collectors_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_CI_Collectors_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_CI_Routing_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_CI_Routing_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Flow_Split_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_Flow_Split_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_General_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_General_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_General_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_General_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_CI_Collectors_Assistant.resx">
+      <DependentUpon>BHS_CI_Collectors_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_CI_Routing_Assistant.resx">
+      <DependentUpon>BHS_CI_Routing_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Arrival_Containers_Assistant.resx">
+      <DependentUpon>BHS_Arrival_Containers_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Flow_Split_Assistant.resx">
+      <DependentUpon>BHS_Flow_Split_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_HB3_Routing_Assistant.resx">
+      <DependentUpon>BHS_HB3_Routing_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Process_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BHS_Process_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Process_Assistant.resx">
+      <DependentUpon>BHS_Process_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\BHS_Itinerary.resx">
+      <DependentUpon>BHS_Itinerary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Edit_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Edit_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Edit_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Edit_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\FP_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FP_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\FP_AssistantAircraft.resx">
+      <DependentUpon>FP_AssistantAircraft.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Nb_Bags_Meeters_Assistant.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Nb_Bags_Meeters_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\OCT_Assistant_MakeUp.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OCT_Assistant_MakeUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Rooting\AllocationAssistantManager.resx">
+      <DependentUpon>AllocationAssistantManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Rooting\SIM_AllocationElement.resx">
+      <DependentUpon>SIM_AllocationElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Rooting\SIM_Flight_Parameters.resx">
+      <DependentUpon>SIM_Flight_Parameters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Schedule_Assistant.resx">
+      <DependentUpon>Schedule_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\OCT_Assistant_MakeUp.resx">
+      <DependentUpon>OCT_Assistant_MakeUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Mean_Flows_Assistant.resx">
+      <DependentUpon>Mean_Flows_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\SubForms\Capacity_SubForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Capacity_SubForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\SubForms\Process_SubForm.resx">
+      <DependentUpon>Process_SubForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Transfert_Distri_Assistant.fr.resx">
+      <DependentUpon>Transfert_Distri_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Transfert_Distri_Assistant.resx">
+      <DependentUpon>Transfert_Distri_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Trolley_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Trolley_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Errors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Help.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Help.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking\ParkingAnalysis.resx">
+      <DependentUpon>ParkingAnalysis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking\ParkingContent.resx">
+      <DependentUpon>ParkingContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking\ParkingScenario.resx">
+      <DependentUpon>ParkingScenario.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAX2SIM.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PAX2SIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Allocation\SIM_Allocation.resx">
+      <DependentUpon>SIM_Allocation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Allocation\SIM_Allocation_BGate.resx">
+      <DependentUpon>SIM_Allocation_BGate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Allocation\SIM_Allocation_MakeUp.resx">
+      <DependentUpon>SIM_Allocation_MakeUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Allocation\SIM_Allocation_Reclaim.resx">
+      <DependentUpon>SIM_Allocation_Reclaim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Allocation\SIM_Allocation_TransferInfeed.resx">
+      <DependentUpon>SIM_Allocation_TransferInfeed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Allocation\SIM_InfeedParameters.resx">
+      <DependentUpon>SIM_InfeedParameters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\CompareChart.resx">
+      <DependentUpon>CompareChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\ExceptionEditorLine.resx">
+      <DependentUpon>ExceptionEditorLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\ParagraphEditor.resx">
+      <DependentUpon>ParagraphEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Reporting\SIM_Annotation.resx">
+      <DependentUpon>SIM_Annotation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Reporting\SIM_doc_versionning.resx">
+      <DependentUpon>SIM_doc_versionning.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Reporting\SIM_Htmleditor.resx">
+      <DependentUpon>SIM_Htmleditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Reporting\SIM_Htmleditor_AddTable.resx">
+      <DependentUpon>SIM_Htmleditor_AddTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Reporting\TreeEditor.resx">
+      <DependentUpon>TreeEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\ExceptionEditor.resx">
+      <DependentUpon>ExceptionEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_ColumnPosition.resx">
+      <DependentUpon>SIM_ColumnPosition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_ParametersIhm.resx">
+      <DependentUpon>SIM_ParametersIhm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Setpoint.resx">
+      <DependentUpon>SIM_Setpoint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Sodexi\BagFlow.resx">
+      <DependentUpon>BagFlow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\TraceAnalyser.resx">
+      <DependentUpon>TraceAnalyser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\IgnoredLigne.resx">
+      <DependentUpon>IgnoredLigne.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\MultipleScenarios.resx">
+      <DependentUpon>MultipleScenarios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Scenarios_Assistant.resx">
+      <DependentUpon>SIM_Scenarios_Assistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Add_Edit_Elem_Airport.resx">
+      <DependentUpon>SIM_Add_Edit_Elem_Airport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\Sim_Analyse_Simulation_Results.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sim_Analyse_Simulation_Results.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_AutomodGraphic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_AutomodGraphic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Axes_Assistant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Axes_Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt\SIM_Import_Table.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Import_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\FP_AirlineCodesTable.txt" />
+    <EmbeddedResource Include="Resources\FP_AirportCodesTable.txt" />
+    <None Include="maCle.snk" />
+    <None Include="maCle.snk.pfx" />
+    <None Include="Resources\Bande Logo_PAX2SIM 2009.jpg" />
+    <None Include="Logos_Pax2Sim\PAX2SIM_2010.jpg" />
+    <None Include="Logos_Pax2Sim\PAX2SIM_2011.jpg" />
+    <EmbeddedResource Include="Resources\arbo.js" />
+    <EmbeddedResource Include="Resources\arbo_join.gif" />
+    <EmbeddedResource Include="Resources\arbo_joinbottom.gif" />
+    <EmbeddedResource Include="Resources\arbo_line.gif" />
+    <EmbeddedResource Include="Resources\arbo_minus.gif" />
+    <EmbeddedResource Include="Resources\arbo_plus.gif" />
+    <None Include="Logos_Pax2Sim\SIMCORE_simple.jpg" />
+    <EmbeddedResource Include="Resources\FP_AircraftTypesTable.txt" />
+    <EmbeddedResource Include="Resources\doc_image.JPG" />
+    <EmbeddedResource Include="Resources\doc_template.jpg" />
+    <Content Include="Resources\Petit Logo.jpg" />
+    <None Include="Resources\Simcore_Logo.bmp" />
+    <EmbeddedResource Include="Resources\report.css" />
+    <EmbeddedResource Include="Prompt\SIM_Audit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SIM_Audit.cs</DependentUpon>
+    </EmbeddedResource>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
